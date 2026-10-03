@@ -29,6 +29,7 @@ Pełny korpus DevStyle pokazał, że pierwsza wersja PMA Mental Loop była zbyt 
 - Po co w ogóle istnieje ten proces lub moduł?
 - Jaki efekt biznesowy lub operacyjny ma się zmienić?
 - Czy optymalizujemy to, co ma wartość, czy to, co łatwo mierzyć?
+- Czy potrafimy opisać capability przez [[Capability Card]]: co / po co / koszt / recovery?
 
 ### 2. Oddziel obserwację od interpretacji
 
@@ -132,6 +133,7 @@ Pełny korpus DevStyle pokazał, że pierwsza wersja PMA Mental Loop była zbyt 
 
 ### 15. Skróć pętlę feedbacku
 
+- Czy ryzykowną decyzję warto najpierw przepuścić przez [[Architecture Sandbox]]?
 - Jaki najmniejszy eksperyment pozwala sprawdzić decyzję?
 - Jak szybko zobaczymy efekt?
 - Czy test, metryka i telemetryka mierzą właściwy problem?
@@ -164,3 +166,9 @@ Jeżeli znamy nazwę rozwiązania, ale nie potrafimy odpowiedzieć na pytania **
 - [[Socio-Technical Boundary]]
 - [[Feedback and Metrics Loop]]
 - [[Recovery and Human Escalation]]
+- [[Capability Card]]
+- [[Explainable State and Provenance]]
+- [[Corrections Over Historical Mutation]]
+- [[Actionable State]]
+- [[Architecture Sandbox]]
+- [[Policy as Domain Artifact]]

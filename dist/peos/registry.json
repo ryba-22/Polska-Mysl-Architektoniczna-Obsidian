@@ -350,16 +350,46 @@
       ],
       "path": "content/01-Concepts/PMA Mental Loop.md",
       "wikilinks": [
+        "Actionable State",
+        "Architecture Sandbox",
         "Behavior Before Nouns",
+        "Capability Card",
+        "Corrections Over Historical Mutation",
+        "Explainable State and Provenance",
         "Feedback and Metrics Loop",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
         "PMA Language Contract",
+        "Policy as Domain Artifact",
         "Problem Classification",
         "Purpose Before Structure",
         "Recovery and Human Escalation",
         "Socio-Technical Boundary",
         "Temporal Scale and Volatility Lens"
+      ]
+    },
+    {
+      "id": "PMA-H-ACTIONABLE-STATE-001",
+      "title": "Actionable State",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ux",
+        "workflow",
+        "notification",
+        "decision",
+        "state"
+      ],
+      "source_ids": [
+        "MONETEO-FINTECH-RANKING-2026"
+      ],
+      "path": "content/02-Heuristics/Actionable State.md",
+      "wikilinks": [
+        "Capability Card",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary"
       ]
     },
     {
@@ -469,6 +499,31 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-H-ARCH-SANDBOX-001",
+      "title": "Architecture Sandbox",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "sandbox",
+        "experiment",
+        "architecture",
+        "validation",
+        "risk"
+      ],
+      "source_ids": [
+        "FINTECH-POLAND-ECOSYSTEM"
+      ],
+      "path": "content/02-Heuristics/Architecture Sandbox.md",
+      "wikilinks": [
+        "Decision Gate",
+        "Dynamic Validation",
+        "Feedback and Metrics Loop",
+        "PMA Mental Loop"
+      ]
+    },
+    {
       "id": "PMA-H-BEHAVIOR-001",
       "title": "Behavior Before Nouns",
       "type": "heuristic",
@@ -517,6 +572,31 @@
       ]
     },
     {
+      "id": "PMA-H-CAPABILITY-CARD-001",
+      "title": "Capability Card",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "capability",
+        "product",
+        "cost",
+        "support",
+        "purpose"
+      ],
+      "source_ids": [
+        "FINTECH-POLAND-ECOSYSTEM",
+        "MONETEO-FINTECH-RANKING-2026"
+      ],
+      "path": "content/02-Heuristics/Capability Card.md",
+      "wikilinks": [
+        "PMA Mental Loop",
+        "Purpose Before Structure",
+        "Recovery and Human Escalation"
+      ]
+    },
+    {
       "id": "PMA-H-CAPABILITY-PRODUCT-001",
       "title": "Capability vs Product",
       "type": "heuristic",
@@ -535,6 +615,30 @@
       ],
       "path": "content/02-Heuristics/Capability vs Product.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-H-CORRECTIONS-001",
+      "title": "Corrections Over Historical Mutation",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "correction",
+        "audit",
+        "history",
+        "finance",
+        "temporal"
+      ],
+      "source_ids": [
+        "FINTECH-POLAND-ECOSYSTEM"
+      ],
+      "path": "content/02-Heuristics/Corrections Over Historical Mutation.md",
+      "wikilinks": [
+        "Behavior Preservation Contract",
+        "Explainable State and Provenance",
+        "Temporal Scale and Volatility Lens"
+      ]
     },
     {
       "id": "PMA-H-DECISION-GATE-001",
@@ -686,6 +790,30 @@
       ],
       "path": "content/02-Heuristics/Example Mapping as Intermediate Step.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-H-EXPLAINABLE-STATE-001",
+      "title": "Explainable State and Provenance",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "explainability",
+        "provenance",
+        "state",
+        "finance",
+        "read-model"
+      ],
+      "source_ids": [
+        "FINTECH-POLAND-ECOSYSTEM",
+        "MONETEO-FINTECH-RANKING-2026"
+      ],
+      "path": "content/02-Heuristics/Explainable State and Provenance.md",
+      "wikilinks": [
+        "Feedback and Metrics Loop",
+        "Reconstructability Test"
+      ]
     },
     {
       "id": "PMA-H-FEEDBACK-METRICS-001",
@@ -891,6 +1019,31 @@
       "path": "content/02-Heuristics/Pivotal Event.md",
       "wikilinks": [
         "Linguistic Boundary"
+      ]
+    },
+    {
+      "id": "PMA-H-POLICY-ARTIFACT-001",
+      "title": "Policy as Domain Artifact",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "policy",
+        "rules",
+        "governance",
+        "domain",
+        "decision"
+      ],
+      "source_ids": [
+        "FINTECH-POLAND-ECOSYSTEM"
+      ],
+      "path": "content/02-Heuristics/Policy as Domain Artifact.md",
+      "wikilinks": [
+        "Corrections Over Historical Mutation",
+        "Decision Gate",
+        "Evidence Contract",
+        "Recovery and Human Escalation"
       ]
     },
     {
@@ -1614,6 +1767,37 @@
       ],
       "path": "content/05-Case-Studies/Domain Drivers SmartSchedule.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-CASE-FINTECH-PRODUCT-001",
+      "title": "Fintech Product Heuristics",
+      "type": "case-study",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "fintech",
+        "product-engineering",
+        "explainability",
+        "sandbox",
+        "policy"
+      ],
+      "source_ids": [
+        "FINTECH-POLAND-ECOSYSTEM",
+        "MONETEO-FINTECH-RANKING-2026"
+      ],
+      "path": "content/05-Case-Studies/Fintech Product Heuristics.md",
+      "wikilinks": [
+        "Actionable State",
+        "Architecture Sandbox",
+        "Capability Card",
+        "Corrections Over Historical Mutation",
+        "Explainable State and Provenance",
+        "Feedback and Metrics Loop",
+        "PMA Mental Loop",
+        "Policy as Domain Artifact",
+        "Purpose Before Structure"
+      ]
     },
     {
       "id": "PMA-CASE-TESTABLE-ARCH-001",

@@ -303,6 +303,34 @@
         "links"
       ],
       "notes": "Snapshot analysed 2026-10-03: 89/89 videos with subtitles, 89 canonical tracks, ~263k words. Raw captions remain local/private."
+    },
+    {
+      "id": "FINTECH-POLAND-ECOSYSTEM",
+      "name": "FinTech Poland — digital finance ecosystem, reports and sandbox initiatives",
+      "url": "https://fintechpoland.com/pl/strona-glowna/",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Used as inspiration for sandbox/validation, policy visibility and explainability-oriented product engineering."
+    },
+    {
+      "id": "MONETEO-FINTECH-RANKING-2026",
+      "name": "Moneteo — Ranking fintechów i banków mobilnych, 2026",
+      "url": "https://moneteo.com/rankingi/fintechy-banki-mobilne",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Used as a product-analysis source for purpose/cost/support framing and user-facing financial information patterns."
     }
   ]
 }

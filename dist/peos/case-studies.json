@@ -61,6 +61,37 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-CASE-FINTECH-PRODUCT-001",
+      "title": "Fintech Product Heuristics",
+      "type": "case-study",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "fintech",
+        "product-engineering",
+        "explainability",
+        "sandbox",
+        "policy"
+      ],
+      "source_ids": [
+        "FINTECH-POLAND-ECOSYSTEM",
+        "MONETEO-FINTECH-RANKING-2026"
+      ],
+      "path": "content/05-Case-Studies/Fintech Product Heuristics.md",
+      "wikilinks": [
+        "Actionable State",
+        "Architecture Sandbox",
+        "Capability Card",
+        "Corrections Over Historical Mutation",
+        "Explainable State and Provenance",
+        "Feedback and Metrics Loop",
+        "PMA Mental Loop",
+        "Policy as Domain Artifact",
+        "Purpose Before Structure"
+      ]
+    },
+    {
       "id": "PMA-CASE-TESTABLE-ARCH-001",
       "title": "Testable Architecture and Legacy Migration",
       "type": "case-study",
