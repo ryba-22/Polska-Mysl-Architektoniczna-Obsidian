@@ -1,0 +1,74 @@
+name: Deploy PMA to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  QUARTZ_REF: 97a2d05f80c4c50534959b1d0d41cc4b3895625e
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PMA
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Fetch pinned Quartz
+        run: |
+          mkdir .quartz-site
+          git -C .quartz-site init
+          git -C .quartz-site remote add origin https://github.com/jackyzha0/quartz.git
+          git -C .quartz-site fetch --depth 1 origin "$QUARTZ_REF"
+          git -C .quartz-site checkout --detach FETCH_HEAD
+
+      - name: Prepare public content
+        run: |
+          rm -rf .quartz-site/content
+          mkdir -p .quartz-site/content
+          cp -a content/. .quartz-site/content/
+          cp quartz.config.yaml .quartz-site/quartz.config.yaml
+
+      - name: Install Quartz
+        working-directory: .quartz-site
+        run: |
+          npm ci
+          npx quartz plugin install --from-config
+
+      - name: Build PMA
+        working-directory: .quartz-site
+        run: npx quartz build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .quartz-site/public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
