@@ -16,13 +16,31 @@
         "DOMAIN-DRIVERS-COURSE",
         "DOMAIN-DRIVERS-DD-AI",
         "SOFTWARE-ARCHETYPES",
-        "AI-THAT-WORKS"
+        "AI-THAT-WORKS",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
       ],
       "path": "content/00-Start/Mapa PMA.md",
       "wikilinks": [
+        "Algorithm Recognition",
+        "Architecture Drivers",
+        "Decision Gate",
+        "Deep Model Quality",
+        "Distillation",
+        "Dynamic Validation",
+        "Evidence Contract",
+        "Evolutionary Strict Pass Rate",
+        "Język polskiej myśli architektonicznej",
+        "Kanoniczne pytania PMA",
+        "Main Question",
+        "Model Alternatives",
+        "Model Breaking Change",
+        "PMA Language Contract",
         "PMA-PEOS Bridge",
-        "Pattern vs Archetype vs Algorithm",
-        "Software Archetypes"
+        "Pivotal Event",
+        "Problem Classification",
+        "Software Archetypes",
+        "Unit of Change",
+        "Workflow Preflight"
       ]
     },
     {
@@ -40,23 +58,44 @@
       "path": "content/00-Start/Start Here.md",
       "wikilinks": [
         "Agentic Backpressure",
+        "Aggregate Sizing",
         "Algorithm Recognition",
+        "Alternative Process Flow",
         "Architecture Code Gap",
+        "Architecture Drivers",
+        "Behavior Preservation Contract",
         "Context Engineering",
+        "Current vs Historical Documentation",
+        "DDD Lean",
         "DDD jako proces decyzyjny",
+        "Decision Gate",
+        "Deep Model Quality",
+        "Distillation",
+        "Dynamic Validation",
+        "Event Command Query",
         "Event Driven Failure Patterns",
+        "Evidence Contract",
         "Evolutionary Strict Pass Rate",
         "Example Mapping as Intermediate Step",
+        "Heuristic Engineering",
         "Information Gathering",
+        "Intentional Composition",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
+        "Main Question",
+        "Model Alternatives",
+        "Model Breaking Change",
+        "Model Harness Benchmarking",
         "PMA Language Contract",
+        "Pivotal Event",
         "Problem Classification",
         "Product Engineering Reasoning Engine",
         "Scenario Before Aggregate",
         "Software Archetypes",
         "Structured Agent State",
-        "Unit of Change"
+        "Sync to Async Migration",
+        "Unit of Change",
+        "Workflow Preflight"
       ]
     },
     {
@@ -122,6 +161,45 @@
       ]
     },
     {
+      "id": "PMA-CONCEPT-DOCS-CURRENT-HISTORY-001",
+      "title": "Current vs Historical Documentation",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "documentation",
+        "adr",
+        "architecture",
+        "knowledge"
+      ],
+      "source_ids": [
+        "PROJECT-FRONTEND-EMAIL-2024-08-01"
+      ],
+      "path": "content/01-Concepts/Current vs Historical Documentation.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-CONCEPT-DDD-LEAN-001",
+      "title": "DDD Lean",
+      "type": "concept",
+      "lifecycle": "candidate",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "lean",
+        "constraints",
+        "modeling"
+      ],
+      "source_ids": [
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/01-Concepts/DDD Lean.md",
+      "wikilinks": []
+    },
+    {
       "id": "PMA-CONCEPT-DDD-001",
       "title": "DDD jako proces decyzyjny",
       "type": "concept",
@@ -135,16 +213,67 @@
       "source_ids": [
         "DOMAIN-DRIVERS-COURSE",
         "DEVMOUNTJOB",
-        "DDD-BY-EXAMPLES-LIBRARY"
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
       ],
       "path": "content/01-Concepts/DDD jako proces decyzyjny.md",
       "wikilinks": [
+        "Aggregate Sizing",
+        "Alternative Process Flow",
+        "Deep Model Quality",
+        "Distillation",
+        "Dynamic Validation",
+        "Heuristic Engineering",
         "Information Gathering",
         "Język polskiej myśli architektonicznej",
         "Linguistic Boundary",
+        "Main Question",
+        "Model Alternatives",
+        "Pivotal Event",
         "Problem Classification",
         "Unit of Change"
       ]
+    },
+    {
+      "id": "PMA-CONCEPT-HEURISTIC-ENGINEERING-001",
+      "title": "Heuristic Engineering",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "heuristics",
+        "decision-making",
+        "modeling"
+      ],
+      "source_ids": [
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/01-Concepts/Heuristic Engineering.md",
+      "wikilinks": [
+        "Product Engineering Reasoning Engine"
+      ]
+    },
+    {
+      "id": "PMA-CONCEPT-COMPOSITION-001",
+      "title": "Intentional Composition",
+      "type": "concept",
+      "lifecycle": "candidate",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "architecture",
+        "composition",
+        "dependency-inversion",
+        "testability"
+      ],
+      "source_ids": [
+        "SOFTWARE-ESSENTIALIST-EMAIL-2025-11-25"
+      ],
+      "path": "content/01-Concepts/Intentional Composition.md",
+      "wikilinks": []
     },
     {
       "id": "PMA-CONCEPT-LANGUAGE-001",
@@ -446,12 +575,28 @@
         "DOMAIN-DRIVERS-DD-AI",
         "SOFTWARE-ARCHETYPES",
         "ARCHETYPY-OPROGRAMOWANIA",
-        "AI-THAT-WORKS"
+        "AI-THAT-WORKS",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
       ],
       "path": "content/07-PEOS/Product Engineering Reasoning Engine.md",
       "wikilinks": [
+        "Algorithm Recognition",
+        "Architecture Drivers",
+        "Behavior Preservation Contract",
+        "Decision Gate",
+        "Deep Model Quality",
+        "Dynamic Validation",
+        "Event Command Query",
+        "Evidence Contract",
+        "Evolutionary Strict Pass Rate",
         "Kanoniczne pytania PMA",
-        "PMA Language Contract"
+        "Model Alternatives",
+        "PMA Language Contract",
+        "Problem Classification",
+        "Software Archetypes",
+        "Sync to Async Migration",
+        "Unit of Change",
+        "Workflow Preflight"
       ]
     },
     {

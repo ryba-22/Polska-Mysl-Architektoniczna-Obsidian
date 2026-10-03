@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["ddd","reasoning"]
-source_ids: ["DOMAIN-DRIVERS-COURSE","DEVMOUNTJOB","DDD-BY-EXAMPLES-LIBRARY"]
+source_ids: ["DOMAIN-DRIVERS-COURSE","DEVMOUNTJOB","DDD-BY-EXAMPLES-LIBRARY","DEVSTYLE-DDD-EMAIL-CORPUS"]
 ---
 
 # DDD jako proces decyzyjny
@@ -22,12 +22,16 @@ observation → question → evidence → problem → problem class → candidat
 
 Jeżeli rozmowa o DDD zaczyna się od Aggregate, Repository, Event Sourcing lub mikroserwisów, proces prawdopodobnie rozpoczął się za późno.
 
+[[Heuristic Engineering]] opisuje nadrzędną zasadę: nie istnieje jeden idealny proces ani jedna architektura; kompetencją jest dobór heurystyki do klasy problemu i evidence.
+
 ## Warstwa discovery
 
 [[Information Gathering]] pomaga zebrać wiedzę.
-[[Linguistic Boundary]] i scenariusze pomagają znaleźć granice.
+[[Main Question]], [[Alternative Process Flow]], [[Pivotal Event]], [[Linguistic Boundary]] i [[Distillation]] pomagają odkrywać granice.
+[[Deep Model Quality]] i [[Model Alternatives]] pomagają porównywać reprezentacje problemu.
 [[Problem Classification]] określa rodzaj problemu.
-[[Unit of Change]] prowadzi do consistency boundary.
+[[Unit of Change]] i [[Aggregate Sizing]] prowadzą do consistency boundary.
+[[Dynamic Validation]] sprawdza granice w rzeczywistym przepływie.
 
 ## Antywzorce
 

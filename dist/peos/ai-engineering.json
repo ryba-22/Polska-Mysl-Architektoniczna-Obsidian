@@ -188,6 +188,28 @@
       ],
       "path": "content/09-Evals/Evolutionary Strict Pass Rate.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-EVAL-MODEL-HARNESS-001",
+      "title": "Model Harness Benchmarking",
+      "type": "eval",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "evals",
+        "model",
+        "harness",
+        "cost",
+        "benchmark"
+      ],
+      "source_ids": [
+        "TENXDEVS-EMAIL-2026-08-19",
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/09-Evals/Model Harness Benchmarking.md",
+      "wikilinks": []
     }
   ]
 }

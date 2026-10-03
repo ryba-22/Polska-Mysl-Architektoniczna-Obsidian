@@ -2,6 +2,30 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "id": "PMA-H-AGGREGATE-SIZING-001",
+      "title": "Aggregate Sizing",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "aggregate",
+        "consistency",
+        "concurrency"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DDD-CREW",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Aggregate Sizing.md",
+      "wikilinks": [
+        "Consistency Boundary",
+        "Unit of Change"
+      ]
+    },
+    {
       "id": "PMA-H-ALGORITHM-RECOGNITION-001",
       "title": "Algorithm Recognition",
       "type": "heuristic",
@@ -21,6 +45,28 @@
       ],
       "path": "content/02-Heuristics/Algorithm Recognition.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-H-ALTERNATIVE-FLOW-001",
+      "title": "Alternative Process Flow",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "process",
+        "boundary",
+        "event-storming"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Alternative Process Flow.md",
+      "wikilinks": [
+        "Main Question",
+        "Pivotal Event"
+      ]
     },
     {
       "id": "PMA-H-ARCH-CODE-GAP-001",
@@ -60,6 +106,181 @@
       ],
       "path": "content/02-Heuristics/Architecture Drivers.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-H-BEHAVIOR-PRESERVATION-001",
+      "title": "Behavior Preservation Contract",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "refactoring",
+        "behavior",
+        "contract",
+        "verification"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI"
+      ],
+      "path": "content/02-Heuristics/Behavior Preservation Contract.md",
+      "wikilinks": [
+        "Architecture Code Gap",
+        "Evolutionary Strict Pass Rate",
+        "Scenario Before Aggregate"
+      ]
+    },
+    {
+      "id": "PMA-H-CAPABILITY-PRODUCT-001",
+      "title": "Capability vs Product",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "capability",
+        "product",
+        "boundary"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Capability vs Product.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-DECISION-GATE-001",
+      "title": "Decision Gate",
+      "type": "heuristic",
+      "lifecycle": "active",
+      "knowledge_status": "peos-decision",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "governance",
+        "decision",
+        "gate"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI",
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/02-Heuristics/Decision Gate.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-DEEP-MODEL-QUALITY-001",
+      "title": "Deep Model Quality",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "deep-model",
+        "model-quality",
+        "evaluation"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "EVANS-DDD",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Deep Model Quality.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-DISTILLATION-001",
+      "title": "Distillation",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "strategic-design",
+        "core-domain",
+        "distillation"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Distillation.md",
+      "wikilinks": [
+        "Software Archetypes"
+      ]
+    },
+    {
+      "id": "PMA-H-DYNAMIC-VALIDATION-001",
+      "title": "Dynamic Validation",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "boundaries",
+        "runtime",
+        "validation"
+      ],
+      "source_ids": [
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Dynamic Validation.md",
+      "wikilinks": [
+        "Architecture Code Gap",
+        "Connascence"
+      ]
+    },
+    {
+      "id": "PMA-H-ECQ-001",
+      "title": "Event Command Query",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "integration",
+        "event",
+        "command",
+        "query"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DOMAIN-DRIVERS-DD-AI"
+      ],
+      "path": "content/02-Heuristics/Event Command Query.md",
+      "wikilinks": [
+        "Sync to Async Migration",
+        "Transactional Outbox Atomicity"
+      ]
+    },
+    {
+      "id": "PMA-H-EVIDENCE-CONTRACT-001",
+      "title": "Evidence Contract",
+      "type": "heuristic",
+      "lifecycle": "active",
+      "knowledge_status": "peos-decision",
+      "peos_usable": true,
+      "tags": [
+        "evidence",
+        "reasoning",
+        "decision",
+        "ai"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI",
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/02-Heuristics/Evidence Contract.md",
+      "wikilinks": [
+        "Workflow Preflight"
+      ]
     },
     {
       "id": "PMA-H-EXAMPLE-MAPPING-001",
@@ -172,6 +393,95 @@
       ]
     },
     {
+      "id": "PMA-H-MAIN-QUESTION-001",
+      "title": "Main Question",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "model-boundaries",
+        "strategic-design"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Main Question.md",
+      "wikilinks": [
+        "Availability",
+        "Problem Classification"
+      ]
+    },
+    {
+      "id": "PMA-H-MODEL-ALTERNATIVES-001",
+      "title": "Model Alternatives",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "modeling",
+        "alternatives",
+        "decision"
+      ],
+      "source_ids": [
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Model Alternatives.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-MODEL-BREAKING-CHANGE-001",
+      "title": "Model Breaking Change",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "model-evolution",
+        "change",
+        "refactoring"
+      ],
+      "source_ids": [
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Model Breaking Change.md",
+      "wikilinks": [
+        "Deep Model Quality",
+        "Evolutionary Strict Pass Rate",
+        "Main Question",
+        "Model Alternatives"
+      ]
+    },
+    {
+      "id": "PMA-H-PIVOTAL-EVENT-001",
+      "title": "Pivotal Event",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "event-storming",
+        "boundary",
+        "lifecycle"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Pivotal Event.md",
+      "wikilinks": [
+        "Linguistic Boundary"
+      ]
+    },
+    {
       "id": "PMA-H-PROBLEM-CLASS-001",
       "title": "Problem Classification",
       "type": "heuristic",
@@ -218,6 +528,54 @@
       ]
     },
     {
+      "id": "PMA-H-SUBPROBLEM-PRIORITY-001",
+      "title": "Subproblem Prioritization",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "strategic-design",
+        "prioritization",
+        "subdomain"
+      ],
+      "source_ids": [
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Subproblem Prioritization.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Distillation",
+        "Local Architecture by Problem Complexity",
+        "Software Archetypes"
+      ]
+    },
+    {
+      "id": "PMA-H-SYNC-ASYNC-001",
+      "title": "Sync to Async Migration",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "integration",
+        "async",
+        "migration",
+        "outbox",
+        "workflow"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI",
+        "DEVSTYLE-DDD-EMAIL-CORPUS"
+      ],
+      "path": "content/02-Heuristics/Sync to Async Migration.md",
+      "wikilinks": [
+        "Event Command Query",
+        "Transactional Outbox Atomicity"
+      ]
+    },
+    {
       "id": "PMA-H-CONSISTENCY-001",
       "title": "Unit of Change",
       "type": "heuristic",
@@ -239,6 +597,26 @@
       "wikilinks": [
         "Consistency Boundary"
       ]
+    },
+    {
+      "id": "PMA-H-WORKFLOW-PREFLIGHT-001",
+      "title": "Workflow Preflight",
+      "type": "heuristic",
+      "lifecycle": "active",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "preflight",
+        "workflow",
+        "scope",
+        "overengineering"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Workflow Preflight.md",
+      "wikilinks": []
     }
   ]
 }
