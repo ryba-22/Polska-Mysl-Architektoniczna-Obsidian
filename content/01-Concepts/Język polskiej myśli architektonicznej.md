@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["language","reasoning","ddd","architecture","pma"]
-source_ids: ["PMA-LANGUAGE-CORPUS-2026-10-03","DOMAIN-DRIVERS-COURSE","DEVSTYLE-DEVTALK","BETTER-SOFTWARE-DESIGN","DDD-WAW-VIDEOS"]
+source_ids: ["PMA-LANGUAGE-CORPUS-2026-10-03","DEVSTYLE-FULL-CORPUS-2026-10-03","DOMAIN-DRIVERS-COURSE","DEVSTYLE-DEVTALK","BETTER-SOFTWARE-DESIGN","DDD-WAW-VIDEOS"]
 ---
 
 # Język polskiej myśli architektonicznej
@@ -255,6 +255,67 @@ To profile syntetyczne, nie przypisanie pojedynczych cytatów.
 **Mariusz Gil** — prowadzenie rozmowy przez pytania, kontrasty i przykłady oraz wydobywanie warunków, w których model ma sens.
 
 **Maciej Aniserowicz / DevTalk** — uczenie przez różnicowanie, prowokacyjne pytania, testowanie „czy to w ogóle ma sens?” i konfrontowanie deklaracji z praktyczną konsekwencją.
+
+## Rozszerzenie po pełnym korpusie DevStyle
+
+Analiza wszystkich 89 materiałów z kanału DevStyle ujawniła grupy sformułowań słabo reprezentowane w pierwszej wersji PMA.
+
+### Cel, klient i efekt
+
+- Dla kogo to właściwie istnieje?
+- Po co potrzebujemy tego modelu?
+- Co dzięki temu ma stać się możliwe?
+- Jaki efekt chcemy zmienić?
+- Czy optymalizujemy rezultat, czy tylko łatwą do policzenia aktywność?
+
+### Zachowanie przed strukturą
+
+- Jakie czasowniki opisują ten problem?
+- Co użytkownik lub system próbuje zrobić?
+- Która operacja wpływa na możliwość wykonania innej?
+- Czy wspólny rzeczownik nie ukrywa kilku różnych modeli?
+- Czy ta granica wynika z behavior, czy ze schematu danych?
+
+### Odtwarzalność i source of truth
+
+- Czy mogę skasować ten model i odtworzyć go bez utraty informacji?
+- Który model jest właścicielem faktu?
+- Czy to stan biznesowy, czy projekcja?
+- Czy kolejność pojawienia się danych wpływa na wynik?
+
+### Czas, skala i zmienność
+
+- Co się stanie przy dziesięciokrotnie większej skali?
+- Co zmienia się często, a co pozostaje stabilne?
+- Czy kolejność ma znaczenie biznesowe?
+- Jak długo ta decyzja pozostaje ważna?
+- Czy przekroczyliśmy punkt, po którym cofnięcie jest bardzo drogie?
+
+### System społeczno-techniczny
+
+- Czy zmiana jednego zespołu wymaga czekania na drugi?
+- Gdzie znajduje się handoff?
+- Czy ownership jest wystarczająco jasny?
+- Czy zakres odpowiedzialności mieści się poznawczo w głowie zespołu?
+- Czy granica skraca, czy wydłuża pętlę feedbacku?
+
+### Pomiar i uczenie
+
+- Jaką metryką ocenimy jakość modelu?
+- Co mierzymy przed zmianą?
+- Jakie production evidence może podważyć decyzję?
+- Jak szybko dostaniemy feedback?
+- Czy metryka jest związana z celem, czy jest tylko łatwym proxy?
+
+### Recovery i eskalacja
+
+- Co dokładnie oznacza, że operacja ma zakończyć się sukcesem?
+- Czy wszystkie kroki naprawdę muszą zakończyć się razem?
+- Ile razy i jak długo warto próbować ponownie?
+- Kiedy retry przestaje mieć sens biznesowy?
+- Kiedy potrzebny jest człowiek i jaką decyzję ma podjąć?
+
+Pełna operacyjna pętla znajduje się w [[PMA Mental Loop]].
 
 ## Meta-reguły PMA
 

@@ -27,7 +27,15 @@ source_ids: []
 
 **Failure Pattern** — powtarzalny sposób, w jaki poprawnie wyglądająca architektura może zawieść.
 
+**Feedback Loop** — czas i droga od decyzji lub zmiany do informacji pozwalającej ocenić jej rzeczywisty efekt.
+
+**Behavioral Decomposition** — dzielenie problemu według zachowań, decyzji i czasowników zamiast według samych rzeczowników lub struktur danych.
+
 **Problem Class** — kategoria problemu określająca, jakiej natury rozwiązania szukać.
+
+**Reconstructability** — właściwość modelu, który można usunąć i odtworzyć z innych autorytatywnych źródeł bez utraty informacji biznesowej.
+
+**Socio-Technical Boundary** — granica analizowana jednocześnie jako separacja modelu/software i jako granica ownership, komunikacji oraz odpowiedzialności zespołów.
 
 **Software Archetype** — powtarzalny strukturalny model biznesowy występujący w różnych domenach.
 

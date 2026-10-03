@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: active
 peos_usable: false
 tags: ["provenance","language","corpus","methodology"]
-source_ids: ["PMA-LANGUAGE-CORPUS-2026-10-03","DOMAIN-DRIVERS-COURSE","DEVSTYLE-DEVTALK","BETTER-SOFTWARE-DESIGN","DDD-WAW-VIDEOS"]
+source_ids: ["PMA-LANGUAGE-CORPUS-2026-10-03","DEVSTYLE-FULL-CORPUS-2026-10-03","DOMAIN-DRIVERS-COURSE","DEVSTYLE-DEVTALK","BETTER-SOFTWARE-DESIGN","DDD-WAW-VIDEOS"]
 ---
 
 # Metodyka korpusu językowego PMA
@@ -33,6 +33,26 @@ W korpusie znalazły się m.in. materiały i rozmowy z udziałem:
 - Macieja Jędrzejewskiego.
 
 Źródła obejmowały publiczne nagrania Domain Drivers / DevStyle / DevTalk, Better Software Design, DDD WAW oraz konferencje i meetupy.
+
+## Run 2 — pełny feed DevStyle 2026-10-03
+
+Drugi run objął wszystkie 89 materiałów widocznych w zakładce @devstyle_pl/videos.
+
+- 89/89 filmów miało dostępne napisy;
+- utworzono 89 kanonicznych ścieżek transkrypcji;
+- korpus zawiera około 263 tys. słów i 1,65 mln znaków;
+- podzbiór architektura/engineering objął 47 materiałów i około 166 tys. słów.
+
+Porównanie z pierwszą warstwą PMA wykazało niedoreprezentowane obszary:
+- cel / klient / outcome;
+- behavioral decomposition;
+- czas / skala / zmienność;
+- socio-technical ownership;
+- metryki i feedback loops;
+- recovery / retry / human escalation;
+- reconstructability projekcji.
+
+Wyniki zostały włączone do [[PMA Mental Loop]], [[PMA Language Contract]] i [[Kanoniczne pytania PMA]].
 
 ## Pipeline
 

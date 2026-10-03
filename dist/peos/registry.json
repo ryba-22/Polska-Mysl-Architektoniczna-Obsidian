@@ -19,28 +19,35 @@
         "DOMAIN-DRIVERS-DD-AI",
         "SOFTWARE-ARCHETYPES",
         "AI-THAT-WORKS",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/00-Start/Mapa PMA.md",
       "wikilinks": [
         "Algorithm Recognition",
         "Architecture Drivers",
+        "Behavior Before Nouns",
         "Decision Gate",
         "Deep Model Quality",
         "Distillation",
         "Dynamic Validation",
         "Evidence Contract",
         "Evolutionary Strict Pass Rate",
+        "Feedback and Metrics Loop",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
         "Main Question",
         "Model Alternatives",
         "Model Breaking Change",
         "PMA Language Contract",
+        "PMA Mental Loop",
         "PMA-PEOS Bridge",
         "Pivotal Event",
         "Problem Classification",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
         "Software Archetypes",
+        "Temporal Scale and Volatility Lens",
         "Unit of Change",
         "Workflow Preflight"
       ]
@@ -89,6 +96,7 @@
         "Model Breaking Change",
         "Model Harness Benchmarking",
         "PMA Language Contract",
+        "PMA Mental Loop",
         "Pivotal Event",
         "Problem Classification",
         "Product Engineering Reasoning Engine",
@@ -216,23 +224,30 @@
         "DOMAIN-DRIVERS-COURSE",
         "DEVMOUNTJOB",
         "DDD-BY-EXAMPLES-LIBRARY",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/01-Concepts/DDD jako proces decyzyjny.md",
       "wikilinks": [
         "Aggregate Sizing",
         "Alternative Process Flow",
+        "Behavior Before Nouns",
         "Deep Model Quality",
         "Distillation",
         "Dynamic Validation",
+        "Feedback and Metrics Loop",
         "Heuristic Engineering",
         "Information Gathering",
         "Język polskiej myśli architektonicznej",
         "Linguistic Boundary",
         "Main Question",
         "Model Alternatives",
+        "PMA Mental Loop",
         "Pivotal Event",
         "Problem Classification",
+        "Purpose Before Structure",
+        "Socio-Technical Boundary",
+        "Temporal Scale and Volatility Lens",
         "Unit of Change"
       ]
     },
@@ -293,6 +308,7 @@
       ],
       "source_ids": [
         "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
         "DOMAIN-DRIVERS-COURSE",
         "DEVSTYLE-DEVTALK",
         "BETTER-SOFTWARE-DESIGN",
@@ -305,10 +321,45 @@
         "Linguistic Boundary",
         "Metodyka korpusu językowego PMA",
         "PMA Language Contract",
+        "PMA Mental Loop",
         "Problem Classification",
         "Product Engineering Reasoning Engine",
         "Scenario Before Aggregate",
         "Unit of Change"
+      ]
+    },
+    {
+      "id": "PMA-CONCEPT-MENTAL-LOOP-001",
+      "title": "PMA Mental Loop",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "pma",
+        "reasoning",
+        "mental-model",
+        "ddd",
+        "architecture",
+        "product-engineering"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/01-Concepts/PMA Mental Loop.md",
+      "wikilinks": [
+        "Behavior Before Nouns",
+        "Feedback and Metrics Loop",
+        "Język polskiej myśli architektonicznej",
+        "Kanoniczne pytania PMA",
+        "PMA Language Contract",
+        "Problem Classification",
+        "Purpose Before Structure",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
+        "Temporal Scale and Volatility Lens"
       ]
     },
     {
@@ -416,6 +467,31 @@
       ],
       "path": "content/02-Heuristics/Architecture Drivers.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-H-BEHAVIOR-001",
+      "title": "Behavior Before Nouns",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "behavior",
+        "modularity",
+        "boundaries",
+        "ddd"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Behavior Before Nouns.md",
+      "wikilinks": [
+        "Linguistic Boundary",
+        "Purpose Before Structure",
+        "Socio-Technical Boundary",
+        "Unit of Change"
+      ]
     },
     {
       "id": "PMA-H-BEHAVIOR-PRESERVATION-001",
@@ -612,6 +688,31 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-H-FEEDBACK-METRICS-001",
+      "title": "Feedback and Metrics Loop",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "feedback",
+        "metrics",
+        "validation",
+        "learning",
+        "architecture"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+      ],
+      "path": "content/02-Heuristics/Feedback and Metrics Loop.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Evolutionary Eval",
+        "PMA Mental Loop",
+        "Socio-Technical Boundary"
+      ]
+    },
+    {
       "id": "PMA-H-DDD-INFO-001",
       "title": "Information Gathering",
       "type": "heuristic",
@@ -647,6 +748,7 @@
       ],
       "source_ids": [
         "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
         "DOMAIN-DRIVERS-COURSE",
         "DEVSTYLE-DEVTALK",
         "BETTER-SOFTWARE-DESIGN"
@@ -654,10 +756,10 @@
       "path": "content/02-Heuristics/Kanoniczne pytania PMA.md",
       "wikilinks": [
         "Architecture Drivers",
+        "Feedback and Metrics Loop",
         "Język polskiej myśli architektonicznej",
-        "Problem Classification",
-        "Scenario Before Aggregate",
-        "Unit of Change"
+        "PMA Mental Loop",
+        "Problem Classification"
       ]
     },
     {
@@ -806,11 +908,67 @@
       "source_ids": [
         "DOMAIN-DRIVERS-DD-AI",
         "DOMAIN-DRIVERS-COURSE",
-        "DDD-BY-EXAMPLES-LIBRARY"
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/02-Heuristics/Problem Classification.md",
       "wikilinks": [
-        "Pattern vs Archetype vs Algorithm"
+        "Architecture Drivers",
+        "Behavior Before Nouns",
+        "Pattern vs Archetype vs Algorithm",
+        "Reconstructability Test",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
+        "Temporal Scale and Volatility Lens",
+        "Unit of Change"
+      ]
+    },
+    {
+      "id": "PMA-H-PURPOSE-001",
+      "title": "Purpose Before Structure",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "purpose",
+        "value",
+        "customer",
+        "discovery",
+        "architecture"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+      ],
+      "path": "content/02-Heuristics/Purpose Before Structure.md",
+      "wikilinks": [
+        "Behavior Before Nouns",
+        "PMA Mental Loop",
+        "Problem Classification"
+      ]
+    },
+    {
+      "id": "PMA-H-RECONSTRUCT-001",
+      "title": "Reconstructability Test",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "projection",
+        "presentation",
+        "source-of-truth",
+        "problem-classification"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Reconstructability Test.md",
+      "wikilinks": [
+        "Consistency Boundary",
+        "Problem Classification",
+        "Recovery and Human Escalation"
       ]
     },
     {
@@ -834,6 +992,31 @@
       "path": "content/02-Heuristics/Scenario Before Aggregate.md",
       "wikilinks": [
         "Consistency Boundary",
+        "Unit of Change"
+      ]
+    },
+    {
+      "id": "PMA-H-SOCIOTECH-001",
+      "title": "Socio-Technical Boundary",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "socio-technical",
+        "team-topology",
+        "boundaries",
+        "ownership",
+        "feedback"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+      ],
+      "path": "content/02-Heuristics/Socio-Technical Boundary.md",
+      "wikilinks": [
+        "Behavior Before Nouns",
+        "Connascence",
+        "Feedback and Metrics Loop",
         "Unit of Change"
       ]
     },
@@ -883,6 +1066,32 @@
       "wikilinks": [
         "Event Command Query",
         "Transactional Outbox Atomicity"
+      ]
+    },
+    {
+      "id": "PMA-H-TEMPORAL-SCALE-001",
+      "title": "Temporal Scale and Volatility Lens",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "time",
+        "scale",
+        "volatility",
+        "architecture-drivers",
+        "change"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Temporal Scale and Volatility Lens.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "PMA Mental Loop",
+        "Scenario Before Aggregate",
+        "Unit of Change"
       ]
     },
     {
@@ -1282,6 +1491,32 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-FAIL-RECOVERY-ESCALATION-001",
+      "title": "Recovery and Human Escalation",
+      "type": "failure-pattern",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "failure",
+        "recovery",
+        "retry",
+        "human-escalation",
+        "integration"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/04-Failure-Patterns/Recovery and Human Escalation.md",
+      "wikilinks": [
+        "Event Driven Failure Patterns",
+        "PMA Mental Loop",
+        "Problem Classification",
+        "Transactional Outbox Atomicity"
+      ]
+    },
+    {
       "id": "PMA-FP-STALE-CLIENT-001",
       "title": "Stale Client State",
       "type": "failure-pattern",
@@ -1584,6 +1819,7 @@
       ],
       "source_ids": [
         "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
         "DOMAIN-DRIVERS-COURSE",
         "DEVSTYLE-DEVTALK",
         "BETTER-SOFTWARE-DESIGN"
@@ -1591,9 +1827,13 @@
       "path": "content/07-PEOS/PMA Language Contract.md",
       "wikilinks": [
         "DDD jako proces decyzyjny",
+        "Feedback and Metrics Loop",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
-        "Product Engineering Reasoning Engine"
+        "PMA Mental Loop",
+        "Product Engineering Reasoning Engine",
+        "Reconstructability Test",
+        "Recovery and Human Escalation"
       ]
     },
     {
@@ -1632,25 +1872,36 @@
         "SOFTWARE-ARCHETYPES",
         "ARCHETYPY-OPROGRAMOWANIA",
         "AI-THAT-WORKS",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/07-PEOS/Product Engineering Reasoning Engine.md",
       "wikilinks": [
         "Algorithm Recognition",
         "Architecture Drivers",
+        "Behavior Before Nouns",
         "Behavior Preservation Contract",
         "Decision Gate",
         "Deep Model Quality",
+        "Distillation",
         "Dynamic Validation",
         "Event Command Query",
         "Evidence Contract",
         "Evolutionary Strict Pass Rate",
+        "Feedback and Metrics Loop",
         "Kanoniczne pytania PMA",
+        "Main Question",
         "Model Alternatives",
+        "Model Breaking Change",
         "PMA Language Contract",
+        "PMA Mental Loop",
+        "Pivotal Event",
         "Problem Classification",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
         "Software Archetypes",
         "Sync to Async Migration",
+        "Temporal Scale and Volatility Lens",
         "Unit of Change",
         "Workflow Preflight"
       ]
@@ -1777,6 +2028,7 @@
       ],
       "source_ids": [
         "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
         "DOMAIN-DRIVERS-COURSE",
         "DEVSTYLE-DEVTALK",
         "BETTER-SOFTWARE-DESIGN",
@@ -1785,7 +2037,9 @@
       "path": "content/99-Meta/Metodyka korpusu językowego PMA.md",
       "wikilinks": [
         "Język polskiej myśli architektonicznej",
+        "Kanoniczne pytania PMA",
         "PMA Language Contract",
+        "PMA Mental Loop",
         "Publication Policy",
         "Source Provenance"
       ]
@@ -1844,6 +2098,7 @@
         "00-Start/Start Here",
         "01-Concepts/DDD jako proces decyzyjny",
         "01-Concepts/Język polskiej myśli architektonicznej",
+        "01-Concepts/PMA Mental Loop",
         "02-Heuristics/Kanoniczne pytania PMA",
         "03-Software-Archetypes/Software Archetypes",
         "07-PEOS/PMA Language Contract",

@@ -44,6 +44,32 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-FAIL-RECOVERY-ESCALATION-001",
+      "title": "Recovery and Human Escalation",
+      "type": "failure-pattern",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "failure",
+        "recovery",
+        "retry",
+        "human-escalation",
+        "integration"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/04-Failure-Patterns/Recovery and Human Escalation.md",
+      "wikilinks": [
+        "Event Driven Failure Patterns",
+        "PMA Mental Loop",
+        "Problem Classification",
+        "Transactional Outbox Atomicity"
+      ]
+    },
+    {
       "id": "PMA-FP-STALE-CLIENT-001",
       "title": "Stale Client State",
       "type": "failure-pattern",

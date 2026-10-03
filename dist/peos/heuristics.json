@@ -108,6 +108,31 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-H-BEHAVIOR-001",
+      "title": "Behavior Before Nouns",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "behavior",
+        "modularity",
+        "boundaries",
+        "ddd"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Behavior Before Nouns.md",
+      "wikilinks": [
+        "Linguistic Boundary",
+        "Purpose Before Structure",
+        "Socio-Technical Boundary",
+        "Unit of Change"
+      ]
+    },
+    {
       "id": "PMA-H-BEHAVIOR-PRESERVATION-001",
       "title": "Behavior Preservation Contract",
       "type": "heuristic",
@@ -302,6 +327,31 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-H-FEEDBACK-METRICS-001",
+      "title": "Feedback and Metrics Loop",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "feedback",
+        "metrics",
+        "validation",
+        "learning",
+        "architecture"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+      ],
+      "path": "content/02-Heuristics/Feedback and Metrics Loop.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Evolutionary Eval",
+        "PMA Mental Loop",
+        "Socio-Technical Boundary"
+      ]
+    },
+    {
       "id": "PMA-H-DDD-INFO-001",
       "title": "Information Gathering",
       "type": "heuristic",
@@ -337,6 +387,7 @@
       ],
       "source_ids": [
         "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
         "DOMAIN-DRIVERS-COURSE",
         "DEVSTYLE-DEVTALK",
         "BETTER-SOFTWARE-DESIGN"
@@ -344,10 +395,10 @@
       "path": "content/02-Heuristics/Kanoniczne pytania PMA.md",
       "wikilinks": [
         "Architecture Drivers",
+        "Feedback and Metrics Loop",
         "Język polskiej myśli architektonicznej",
-        "Problem Classification",
-        "Scenario Before Aggregate",
-        "Unit of Change"
+        "PMA Mental Loop",
+        "Problem Classification"
       ]
     },
     {
@@ -496,11 +547,67 @@
       "source_ids": [
         "DOMAIN-DRIVERS-DD-AI",
         "DOMAIN-DRIVERS-COURSE",
-        "DDD-BY-EXAMPLES-LIBRARY"
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/02-Heuristics/Problem Classification.md",
       "wikilinks": [
-        "Pattern vs Archetype vs Algorithm"
+        "Architecture Drivers",
+        "Behavior Before Nouns",
+        "Pattern vs Archetype vs Algorithm",
+        "Reconstructability Test",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
+        "Temporal Scale and Volatility Lens",
+        "Unit of Change"
+      ]
+    },
+    {
+      "id": "PMA-H-PURPOSE-001",
+      "title": "Purpose Before Structure",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "purpose",
+        "value",
+        "customer",
+        "discovery",
+        "architecture"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+      ],
+      "path": "content/02-Heuristics/Purpose Before Structure.md",
+      "wikilinks": [
+        "Behavior Before Nouns",
+        "PMA Mental Loop",
+        "Problem Classification"
+      ]
+    },
+    {
+      "id": "PMA-H-RECONSTRUCT-001",
+      "title": "Reconstructability Test",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "projection",
+        "presentation",
+        "source-of-truth",
+        "problem-classification"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Reconstructability Test.md",
+      "wikilinks": [
+        "Consistency Boundary",
+        "Problem Classification",
+        "Recovery and Human Escalation"
       ]
     },
     {
@@ -524,6 +631,31 @@
       "path": "content/02-Heuristics/Scenario Before Aggregate.md",
       "wikilinks": [
         "Consistency Boundary",
+        "Unit of Change"
+      ]
+    },
+    {
+      "id": "PMA-H-SOCIOTECH-001",
+      "title": "Socio-Technical Boundary",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "socio-technical",
+        "team-topology",
+        "boundaries",
+        "ownership",
+        "feedback"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+      ],
+      "path": "content/02-Heuristics/Socio-Technical Boundary.md",
+      "wikilinks": [
+        "Behavior Before Nouns",
+        "Connascence",
+        "Feedback and Metrics Loop",
         "Unit of Change"
       ]
     },
@@ -573,6 +705,32 @@
       "wikilinks": [
         "Event Command Query",
         "Transactional Outbox Atomicity"
+      ]
+    },
+    {
+      "id": "PMA-H-TEMPORAL-SCALE-001",
+      "title": "Temporal Scale and Volatility Lens",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "time",
+        "scale",
+        "volatility",
+        "architecture-drivers",
+        "change"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Temporal Scale and Volatility Lens.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "PMA Mental Loop",
+        "Scenario Before Aggregate",
+        "Unit of Change"
       ]
     },
     {

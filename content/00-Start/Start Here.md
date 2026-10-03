@@ -16,6 +16,7 @@ PMA to graf wiedzy, który łączy polską praktykę DDD i architektury z szersz
 ## Reasoning i język
 
 - [[DDD jako proces decyzyjny]]
+- [[PMA Mental Loop]]
 - [[Język polskiej myśli architektonicznej]]
 - [[Kanoniczne pytania PMA]]
 - [[PMA Language Contract]]

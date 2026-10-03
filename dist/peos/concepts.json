@@ -17,28 +17,35 @@
         "DOMAIN-DRIVERS-DD-AI",
         "SOFTWARE-ARCHETYPES",
         "AI-THAT-WORKS",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/00-Start/Mapa PMA.md",
       "wikilinks": [
         "Algorithm Recognition",
         "Architecture Drivers",
+        "Behavior Before Nouns",
         "Decision Gate",
         "Deep Model Quality",
         "Distillation",
         "Dynamic Validation",
         "Evidence Contract",
         "Evolutionary Strict Pass Rate",
+        "Feedback and Metrics Loop",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
         "Main Question",
         "Model Alternatives",
         "Model Breaking Change",
         "PMA Language Contract",
+        "PMA Mental Loop",
         "PMA-PEOS Bridge",
         "Pivotal Event",
         "Problem Classification",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
         "Software Archetypes",
+        "Temporal Scale and Volatility Lens",
         "Unit of Change",
         "Workflow Preflight"
       ]
@@ -87,6 +94,7 @@
         "Model Breaking Change",
         "Model Harness Benchmarking",
         "PMA Language Contract",
+        "PMA Mental Loop",
         "Pivotal Event",
         "Problem Classification",
         "Product Engineering Reasoning Engine",
@@ -214,23 +222,30 @@
         "DOMAIN-DRIVERS-COURSE",
         "DEVMOUNTJOB",
         "DDD-BY-EXAMPLES-LIBRARY",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/01-Concepts/DDD jako proces decyzyjny.md",
       "wikilinks": [
         "Aggregate Sizing",
         "Alternative Process Flow",
+        "Behavior Before Nouns",
         "Deep Model Quality",
         "Distillation",
         "Dynamic Validation",
+        "Feedback and Metrics Loop",
         "Heuristic Engineering",
         "Information Gathering",
         "Język polskiej myśli architektonicznej",
         "Linguistic Boundary",
         "Main Question",
         "Model Alternatives",
+        "PMA Mental Loop",
         "Pivotal Event",
         "Problem Classification",
+        "Purpose Before Structure",
+        "Socio-Technical Boundary",
+        "Temporal Scale and Volatility Lens",
         "Unit of Change"
       ]
     },
@@ -291,6 +306,7 @@
       ],
       "source_ids": [
         "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
         "DOMAIN-DRIVERS-COURSE",
         "DEVSTYLE-DEVTALK",
         "BETTER-SOFTWARE-DESIGN",
@@ -303,10 +319,45 @@
         "Linguistic Boundary",
         "Metodyka korpusu językowego PMA",
         "PMA Language Contract",
+        "PMA Mental Loop",
         "Problem Classification",
         "Product Engineering Reasoning Engine",
         "Scenario Before Aggregate",
         "Unit of Change"
+      ]
+    },
+    {
+      "id": "PMA-CONCEPT-MENTAL-LOOP-001",
+      "title": "PMA Mental Loop",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "pma",
+        "reasoning",
+        "mental-model",
+        "ddd",
+        "architecture",
+        "product-engineering"
+      ],
+      "source_ids": [
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/01-Concepts/PMA Mental Loop.md",
+      "wikilinks": [
+        "Behavior Before Nouns",
+        "Feedback and Metrics Loop",
+        "Język polskiej myśli architektonicznej",
+        "Kanoniczne pytania PMA",
+        "PMA Language Contract",
+        "Problem Classification",
+        "Purpose Before Structure",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
+        "Temporal Scale and Volatility Lens"
       ]
     },
     {
@@ -528,6 +579,7 @@
       ],
       "source_ids": [
         "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
         "DOMAIN-DRIVERS-COURSE",
         "DEVSTYLE-DEVTALK",
         "BETTER-SOFTWARE-DESIGN"
@@ -535,9 +587,13 @@
       "path": "content/07-PEOS/PMA Language Contract.md",
       "wikilinks": [
         "DDD jako proces decyzyjny",
+        "Feedback and Metrics Loop",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
-        "Product Engineering Reasoning Engine"
+        "PMA Mental Loop",
+        "Product Engineering Reasoning Engine",
+        "Reconstructability Test",
+        "Recovery and Human Escalation"
       ]
     },
     {
@@ -576,25 +632,36 @@
         "SOFTWARE-ARCHETYPES",
         "ARCHETYPY-OPROGRAMOWANIA",
         "AI-THAT-WORKS",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "DEVSTYLE-FULL-CORPUS-2026-10-03"
       ],
       "path": "content/07-PEOS/Product Engineering Reasoning Engine.md",
       "wikilinks": [
         "Algorithm Recognition",
         "Architecture Drivers",
+        "Behavior Before Nouns",
         "Behavior Preservation Contract",
         "Decision Gate",
         "Deep Model Quality",
+        "Distillation",
         "Dynamic Validation",
         "Event Command Query",
         "Evidence Contract",
         "Evolutionary Strict Pass Rate",
+        "Feedback and Metrics Loop",
         "Kanoniczne pytania PMA",
+        "Main Question",
         "Model Alternatives",
+        "Model Breaking Change",
         "PMA Language Contract",
+        "PMA Mental Loop",
+        "Pivotal Event",
         "Problem Classification",
+        "Recovery and Human Escalation",
+        "Socio-Technical Boundary",
         "Software Archetypes",
         "Sync to Async Migration",
+        "Temporal Scale and Volatility Lens",
         "Unit of Change",
         "Workflow Preflight"
       ]
@@ -703,6 +770,7 @@
         "00-Start/Start Here",
         "01-Concepts/DDD jako proces decyzyjny",
         "01-Concepts/Język polskiej myśli architektonicznej",
+        "01-Concepts/PMA Mental Loop",
         "02-Heuristics/Kanoniczne pytania PMA",
         "03-Software-Archetypes/Software Archetypes",
         "07-PEOS/PMA Language Contract",

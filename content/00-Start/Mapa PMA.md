@@ -6,33 +6,45 @@ knowledge_status: synthesis
 lifecycle: active
 peos_usable: true
 tags: ["map","knowledge-graph"]
-source_ids: ["DOMAIN-DRIVERS-COURSE","DOMAIN-DRIVERS-DD-AI","SOFTWARE-ARCHETYPES","AI-THAT-WORKS","DEVSTYLE-DDD-EMAIL-CORPUS"]
+source_ids: ["DOMAIN-DRIVERS-COURSE","DOMAIN-DRIVERS-DD-AI","SOFTWARE-ARCHETYPES","AI-THAT-WORKS","DEVSTYLE-DDD-EMAIL-CORPUS","DEVSTYLE-FULL-CORPUS-2026-10-03"]
 ---
 
 # Mapa PMA
 
-[[Evidence Contract|Evidence]]
+Purpose / outcome
+→ [[Evidence Contract|evidence]]
 → language and [[Kanoniczne pytania PMA|canonical questions]]
 → [[Workflow Preflight|preflight]]
 → strategic questions
 → domain discovery
-→ scenarios and counterexamples
 → [[Main Question|main questions]] / [[Pivotal Event|pivotal events]] / [[Distillation|distillation]]
 → [[Problem Classification|problem classification]]
+→ [[Behavior Before Nouns|behavioral decomposition]]
 → structural recognition
 → [[Model Alternatives|alternative models]]
+→ source-of-truth / ownership
+→ [[Architecture Drivers|architecture drivers]]
+→ [[Temporal Scale and Volatility Lens|temporal / scale / volatility lens]]
 → [[Unit of Change|consistency and unit of change]]
+→ [[Socio-Technical Boundary|socio-technical boundary]]
 → context and coupling design
 → [[Dynamic Validation|dynamic validation]]
-→ failure-mode analysis
-→ [[Architecture Drivers|architecture drivers]]
+→ scenarios and counterexamples
+→ failure-mode / [[Recovery and Human Escalation|recovery analysis]]
+→ cost and risk
+→ decision metric
 → [[Decision Gate|decision gate]]
-→ implementation
+→ implementation / experiment
 → verifiers
 → [[Evolutionary Strict Pass Rate|evolutionary eval]]
 → production traces
-→ learning
+→ [[Feedback and Metrics Loop|feedback]]
+→ revisit or learning
 → evidence.
+
+## Mental model
+
+[[PMA Mental Loop]] spina warstwę języka, heurystyk, decyzji i learning loop w jeden operacyjny sposób myślenia.
 
 ## Structural recognition
 
