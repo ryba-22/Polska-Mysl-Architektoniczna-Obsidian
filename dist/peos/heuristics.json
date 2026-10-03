@@ -101,6 +101,35 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-HEURISTIC-QUESTIONS-001",
+      "title": "Kanoniczne pytania PMA",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "questions",
+        "reasoning",
+        "facilitation",
+        "ddd",
+        "architecture"
+      ],
+      "source_ids": [
+        "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DEVTALK",
+        "BETTER-SOFTWARE-DESIGN"
+      ],
+      "path": "content/02-Heuristics/Kanoniczne pytania PMA.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Język polskiej myśli architektonicznej",
+        "Problem Classification",
+        "Scenario Before Aggregate",
+        "Unit of Change"
+      ]
+    },
+    {
       "id": "PMA-H-DDD-LANGUAGE-001",
       "title": "Linguistic Boundary",
       "type": "heuristic",

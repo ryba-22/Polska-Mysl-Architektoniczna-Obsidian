@@ -40,6 +40,10 @@ Structural Recognition ma trzy ścieżki:
 2. Software Archetype Matcher;
 3. Deep Model discovery.
 
+## Language layer
+
+[[PMA Language Contract]] i [[Kanoniczne pytania PMA]] są warstwą wejściową Reasoning Engine. AI Brain ma prowadzić analizę językiem problemów, driverów, alternatyw, symulacji zmian i konsekwencji, a nie językiem katalogu wzorców.
+
 ## Invariant
 
 AI Brain nie dobiera rozwiązania technicznego bez wcześniejszego wskazania:

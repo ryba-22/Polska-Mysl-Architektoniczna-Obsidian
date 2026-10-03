@@ -187,6 +187,59 @@
         "bibliography",
         "short-attributed-quotation-when-needed"
       ]
+    },
+    {
+      "id": "PMA-LANGUAGE-CORPUS-2026-10-03",
+      "name": "PMA public-source language corpus — 35 captioned DDD/architecture recordings",
+      "url": "https://github.com/ryba-22/Polska-Mysl-Architektoniczna-Obsidian",
+      "license_status": "mixed-third-party-copyright",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "aggregate-statistics",
+        "bibliography",
+        "links"
+      ],
+      "notes": "Local research corpus built 2026-10-03 from public videos/captions. Raw VTT/SRT are not published."
+    },
+    {
+      "id": "DEVSTYLE-DEVTALK",
+      "name": "DevStyle / DevTalk public architecture and DDD materials",
+      "url": "https://devstyle.pl/",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ]
+    },
+    {
+      "id": "BETTER-SOFTWARE-DESIGN",
+      "name": "Better Software Design podcast",
+      "url": "https://bettersoftwaredesign.pl/podcast/",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ]
+    },
+    {
+      "id": "DDD-WAW-VIDEOS",
+      "name": "DDD WAW public talks and recordings",
+      "url": "https://www.youtube.com/results?search_query=DDD+WAW",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ]
     }
   ]
 }

@@ -20,6 +20,9 @@ PMA to rozwijany graf wiedzy o projektowaniu oprogramowania: od discovery i DDD,
 - [[00-Start/Start Here|Start Here]]
 - [[00-Start/Mapa PMA|Mapa PMA]]
 - [[01-Concepts/DDD jako proces decyzyjny|DDD jako proces decyzyjny]]
+- [[01-Concepts/Język polskiej myśli architektonicznej|Język polskiej myśli architektonicznej]]
+- [[02-Heuristics/Kanoniczne pytania PMA|Kanoniczne pytania PMA]]
+- [[07-PEOS/PMA Language Contract|PMA Language Contract]]
 - [[03-Software-Archetypes/Software Archetypes|Software Archetypes]]
 - [[07-PEOS/Product Engineering Reasoning Engine|Product Engineering Reasoning Engine]]
 

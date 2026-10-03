@@ -12,6 +12,7 @@ source_ids: ["DOMAIN-DRIVERS-COURSE","DOMAIN-DRIVERS-DD-AI","SOFTWARE-ARCHETYPES
 # Mapa PMA
 
 Evidence
+→ language and canonical questions
 → strategic questions
 → domain discovery
 → scenarios and counterexamples

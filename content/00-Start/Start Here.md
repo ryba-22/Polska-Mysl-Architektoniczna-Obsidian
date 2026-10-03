@@ -16,6 +16,9 @@ PMA to graf wiedzy, który łączy polską praktykę DDD i architektury z szersz
 ## Główne ścieżki
 
 - [[DDD jako proces decyzyjny]]
+- [[Język polskiej myśli architektonicznej]]
+- [[Kanoniczne pytania PMA]]
+- [[PMA Language Contract]]
 - [[Information Gathering]]
 - [[Problem Classification]]
 - [[Scenario Before Aggregate]]

@@ -50,6 +50,9 @@
         "Evolutionary Strict Pass Rate",
         "Example Mapping as Intermediate Step",
         "Information Gathering",
+        "Język polskiej myśli architektonicznej",
+        "Kanoniczne pytania PMA",
+        "PMA Language Contract",
         "Problem Classification",
         "Product Engineering Reasoning Engine",
         "Scenario Before Aggregate",
@@ -139,8 +142,43 @@
       "path": "content/01-Concepts/DDD jako proces decyzyjny.md",
       "wikilinks": [
         "Information Gathering",
+        "Język polskiej myśli architektonicznej",
         "Linguistic Boundary",
         "Problem Classification",
+        "Unit of Change"
+      ]
+    },
+    {
+      "id": "PMA-CONCEPT-LANGUAGE-001",
+      "title": "Język polskiej myśli architektonicznej",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "language",
+        "reasoning",
+        "ddd",
+        "architecture",
+        "pma"
+      ],
+      "source_ids": [
+        "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DEVTALK",
+        "BETTER-SOFTWARE-DESIGN",
+        "DDD-WAW-VIDEOS"
+      ],
+      "path": "content/01-Concepts/Język polskiej myśli architektonicznej.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "DDD jako proces decyzyjny",
+        "Linguistic Boundary",
+        "Metodyka korpusu językowego PMA",
+        "PMA Language Contract",
+        "Problem Classification",
+        "Product Engineering Reasoning Engine",
+        "Scenario Before Aggregate",
         "Unit of Change"
       ]
     },
@@ -242,6 +280,35 @@
       ],
       "path": "content/02-Heuristics/Information Gathering.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-HEURISTIC-QUESTIONS-001",
+      "title": "Kanoniczne pytania PMA",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "questions",
+        "reasoning",
+        "facilitation",
+        "ddd",
+        "architecture"
+      ],
+      "source_ids": [
+        "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DEVTALK",
+        "BETTER-SOFTWARE-DESIGN"
+      ],
+      "path": "content/02-Heuristics/Kanoniczne pytania PMA.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Język polskiej myśli architektonicznej",
+        "Problem Classification",
+        "Scenario Before Aggregate",
+        "Unit of Change"
+      ]
     },
     {
       "id": "PMA-H-DDD-LANGUAGE-001",
@@ -995,6 +1062,34 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-PEOS-LANGUAGE-001",
+      "title": "PMA Language Contract",
+      "type": "peos-model",
+      "lifecycle": "active",
+      "knowledge_status": "peos-decision",
+      "peos_usable": true,
+      "tags": [
+        "peos",
+        "ai",
+        "language",
+        "reasoning",
+        "contract"
+      ],
+      "source_ids": [
+        "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DEVTALK",
+        "BETTER-SOFTWARE-DESIGN"
+      ],
+      "path": "content/07-PEOS/PMA Language Contract.md",
+      "wikilinks": [
+        "DDD jako proces decyzyjny",
+        "Język polskiej myśli architektonicznej",
+        "Kanoniczne pytania PMA",
+        "Product Engineering Reasoning Engine"
+      ]
+    },
+    {
       "id": "PMA-PEOS-BRIDGE-001",
       "title": "PMA-PEOS Bridge",
       "type": "integration",
@@ -1032,7 +1127,10 @@
         "AI-THAT-WORKS"
       ],
       "path": "content/07-PEOS/Product Engineering Reasoning Engine.md",
-      "wikilinks": []
+      "wikilinks": [
+        "Kanoniczne pytania PMA",
+        "PMA Language Contract"
+      ]
     },
     {
       "id": "PMA-COMPARE-STRUCTURE-001",
@@ -1120,6 +1218,34 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-META-LANGUAGE-CORPUS-001",
+      "title": "Metodyka korpusu językowego PMA",
+      "type": "governance",
+      "lifecycle": "active",
+      "knowledge_status": "synthesis",
+      "peos_usable": false,
+      "tags": [
+        "provenance",
+        "language",
+        "corpus",
+        "methodology"
+      ],
+      "source_ids": [
+        "PMA-LANGUAGE-CORPUS-2026-10-03",
+        "DOMAIN-DRIVERS-COURSE",
+        "DEVSTYLE-DEVTALK",
+        "BETTER-SOFTWARE-DESIGN",
+        "DDD-WAW-VIDEOS"
+      ],
+      "path": "content/99-Meta/Metodyka korpusu językowego PMA.md",
+      "wikilinks": [
+        "Język polskiej myśli architektonicznej",
+        "PMA Language Contract",
+        "Publication Policy",
+        "Source Provenance"
+      ]
+    },
+    {
       "id": "PMA-META-PUBLICATION-001",
       "title": "Polityka publikacji PMA",
       "type": "governance",
@@ -1172,7 +1298,10 @@
         "00-Start/Mapa PMA",
         "00-Start/Start Here",
         "01-Concepts/DDD jako proces decyzyjny",
+        "01-Concepts/Język polskiej myśli architektonicznej",
+        "02-Heuristics/Kanoniczne pytania PMA",
         "03-Software-Archetypes/Software Archetypes",
+        "07-PEOS/PMA Language Contract",
         "07-PEOS/Product Engineering Reasoning Engine"
       ]
     }

@@ -14,7 +14,9 @@ source_ids: ["DOMAIN-DRIVERS-COURSE","DEVMOUNTJOB","DDD-BY-EXAMPLES-LIBRARY"]
 DDD jest przede wszystkim sposobem dochodzenia od problemu biznesowego do modelu i decyzji technicznych.
 
 Przydatna sekwencja:
-requirements → information gathering → strategic heuristics → contextual models → problem class → consistency and integration rules → technical solution.
+observation → question → evidence → problem → problem class → candidate models → drivers → heuristics → alternatives → change simulation → consequences and cost → decision → verification → technical solution.
+
+[[Język polskiej myśli architektonicznej]] opisuje charakterystyczny rejestr pytań i sformułowań używany do utrzymania tego procesu w stanie falsyfikowalnym.
 
 ## Heurystyka
 
