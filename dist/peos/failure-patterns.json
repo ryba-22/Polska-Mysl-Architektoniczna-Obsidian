@@ -44,6 +44,28 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-FP-STALE-CLIENT-001",
+      "title": "Stale Client State",
+      "type": "failure-pattern",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "concurrency",
+        "api",
+        "stale-state",
+        "optimistic-locking"
+      ],
+      "source_ids": [
+        "BSLOTA",
+        "DOMAIN-DRIVERS-DD-JAVA"
+      ],
+      "path": "content/04-Failure-Patterns/Stale Client State.md",
+      "wikilinks": [
+        "Concurrency and Stale State"
+      ]
+    },
+    {
       "id": "PMA-FAIL-OUTBOX-001",
       "title": "Transactional Outbox Atomicity",
       "type": "failure-pattern",

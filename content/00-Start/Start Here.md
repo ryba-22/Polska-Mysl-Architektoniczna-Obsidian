@@ -18,11 +18,17 @@ PMA to graf wiedzy, który łączy polską praktykę DDD i architektury z szersz
 - [[DDD jako proces decyzyjny]]
 - [[Information Gathering]]
 - [[Problem Classification]]
+- [[Scenario Before Aggregate]]
+- [[Example Mapping as Intermediate Step]]
+- [[Algorithm Recognition]]
 - [[Unit of Change]]
 - [[Software Archetypes]]
+- [[Architecture Code Gap]]
 - [[Event Driven Failure Patterns]]
 - [[Product Engineering Reasoning Engine]]
 - [[Context Engineering]]
+- [[Structured Agent State]]
+- [[Agentic Backpressure]]
 - [[Evolutionary Strict Pass Rate]]
 
 ## Zasada

@@ -23,13 +23,13 @@ Nie jest to gotowy framework ani wzorzec implementacyjny. Jest hipotezą struktu
 - [[Waitlist]]
 - [[Configurator]]
 - [[Plan vs Execution]]
-- Product / Product Definition
-- Inventory
-- Ordering
-- Rules and Scoring
-- Graph-based Scheduling and Influence
-- General Assignment / Multidimensional Knapsack
-- Quantity and Units
+- [[Product]]
+- [[Inventory]]
+- [[Ordering]]
+- [[Rules and Scoring]]
+- [[Graphs]]
+- [[General Assignment]]
+- [[Quantity and Units]]
 
 ## Zasada
 

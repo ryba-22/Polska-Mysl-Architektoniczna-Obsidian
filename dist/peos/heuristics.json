@@ -2,6 +2,48 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "id": "PMA-H-ALGORITHM-RECOGNITION-001",
+      "title": "Algorithm Recognition",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "algorithm",
+        "structural-recognition",
+        "deep-model",
+        "ddd"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI",
+        "SOFTWARE-ARCHETYPES",
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/02-Heuristics/Algorithm Recognition.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-ARCH-CODE-GAP-001",
+      "title": "Architecture Code Gap",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "architecture",
+        "boundaries",
+        "verification",
+        "ci"
+      ],
+      "source_ids": [
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DOMAIN-DRIVERS-DD-JAVA",
+        "PILLOPL"
+      ],
+      "path": "content/02-Heuristics/Architecture Code Gap.md",
+      "wikilinks": []
+    },
+    {
       "id": "PMA-H-ARCH-DRIVERS-001",
       "title": "Architecture Drivers",
       "type": "heuristic",
@@ -17,6 +59,25 @@
         "DOMAIN-DRIVERS-COURSE"
       ],
       "path": "content/02-Heuristics/Architecture Drivers.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-EXAMPLE-MAPPING-001",
+      "title": "Example Mapping as Intermediate Step",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "example-mapping",
+        "event-storming",
+        "discovery"
+      ],
+      "source_ids": [
+        "DDD-BY-EXAMPLES-LIBRARY"
+      ],
+      "path": "content/02-Heuristics/Example Mapping as Intermediate Step.md",
       "wikilinks": []
     },
     {
@@ -59,6 +120,29 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-H-LOCAL-ARCH-001",
+      "title": "Local Architecture by Problem Complexity",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "architecture",
+        "bounded-context",
+        "complexity",
+        "local-architecture"
+      ],
+      "source_ids": [
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Local Architecture by Problem Complexity.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Problem Classification"
+      ]
+    },
+    {
       "id": "PMA-H-PROBLEM-CLASS-001",
       "title": "Problem Classification",
       "type": "heuristic",
@@ -78,6 +162,30 @@
       "path": "content/02-Heuristics/Problem Classification.md",
       "wikilinks": [
         "Pattern vs Archetype vs Algorithm"
+      ]
+    },
+    {
+      "id": "PMA-H-SCENARIO-BEFORE-AGGREGATE-001",
+      "title": "Scenario Before Aggregate",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "design-level",
+        "aggregate",
+        "example-mapping"
+      ],
+      "source_ids": [
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DEVMOUNTJOB",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Scenario Before Aggregate.md",
+      "wikilinks": [
+        "Consistency Boundary",
+        "Unit of Change"
       ]
     },
     {

@@ -66,6 +66,93 @@
       ]
     },
     {
+      "id": "PMA-ARCHETYPE-ASSIGNMENT-001",
+      "title": "General Assignment",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "software-archetypes",
+        "assignment",
+        "optimization",
+        "knapsack"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES",
+        "DOMAIN-DRIVERS-DD-JAVA"
+      ],
+      "path": "content/03-Software-Archetypes/General Assignment.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-ARCHETYPE-GRAPHS-001",
+      "title": "Graphs",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "software-archetypes",
+        "graphs",
+        "scheduling",
+        "influence",
+        "journey"
+      ],
+      "source_ids": [
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Graphs.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-ARCHETYPE-INVENTORY-001",
+      "title": "Inventory",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "software-archetypes",
+        "inventory",
+        "availability",
+        "reservation"
+      ],
+      "source_ids": [
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Inventory.md",
+      "wikilinks": [
+        "Availability",
+        "Concurrency and Stale State",
+        "Product",
+        "Waitlist"
+      ]
+    },
+    {
+      "id": "PMA-ARCHETYPE-ORDERING-001",
+      "title": "Ordering",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "software-archetypes",
+        "ordering",
+        "workflow"
+      ],
+      "source_ids": [
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Ordering.md",
+      "wikilinks": [
+        "Accounting",
+        "Inventory",
+        "Plan vs Execution",
+        "Pricing"
+      ]
+    },
+    {
       "id": "PMA-ARCHETYPE-PLANEXEC-001",
       "title": "Plan vs Execution",
       "type": "software-archetype",
@@ -103,6 +190,71 @@
         "BSLOTA"
       ],
       "path": "content/03-Software-Archetypes/Pricing.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-ARCHETYPE-PRODUCT-001",
+      "title": "Product",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "software-archetypes",
+        "product",
+        "catalog"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES",
+        "ARCHETYPY-OPROGRAMOWANIA",
+        "BSLOTA"
+      ],
+      "path": "content/03-Software-Archetypes/Product.md",
+      "wikilinks": [
+        "Inventory",
+        "Pricing",
+        "Quantity and Units"
+      ]
+    },
+    {
+      "id": "PMA-ARCHETYPE-QUANTITY-001",
+      "title": "Quantity and Units",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "software-archetypes",
+        "quantity",
+        "units",
+        "value-object"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES",
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Quantity and Units.md",
+      "wikilinks": [
+        "Connascence"
+      ]
+    },
+    {
+      "id": "PMA-ARCHETYPE-RULES-001",
+      "title": "Rules and Scoring",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "software-archetypes",
+        "rules",
+        "scoring",
+        "decision"
+      ],
+      "source_ids": [
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Rules and Scoring.md",
       "wikilinks": []
     },
     {

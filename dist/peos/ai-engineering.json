@@ -20,6 +20,25 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-AI-BACKPRESSURE-001",
+      "title": "Agentic Backpressure",
+      "type": "concept",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "agents",
+        "verification",
+        "backpressure"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Agentic Backpressure.md",
+      "wikilinks": []
+    },
+    {
       "id": "PMA-AI-CONTEXT-001",
       "title": "Context Engineering",
       "type": "concept",
@@ -35,6 +54,25 @@
         "AI-THAT-WORKS"
       ],
       "path": "content/06-AI-Engineering/Context Engineering.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-AI-DESIGN-DOCS-001",
+      "title": "Design Docs as Scope Reduction",
+      "type": "concept",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "design-doc",
+        "planning",
+        "execution"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Design Docs as Scope Reduction.md",
       "wikilinks": []
     },
     {
@@ -57,6 +95,43 @@
       "wikilinks": []
     },
     {
+      "id": "PMA-AI-MEMORY-DECAY-001",
+      "title": "Memory Resolution Decay",
+      "type": "concept",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "memory",
+        "context-engineering"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Memory Resolution Decay.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-AI-FACTORY-LAYERS-001",
+      "title": "Software Factory Layers",
+      "type": "concept",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "software-factory",
+        "agents",
+        "orchestration"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Software Factory Layers.md",
+      "wikilinks": []
+    },
+    {
       "id": "PMA-AI-FACTORY-001",
       "title": "Software Factory",
       "type": "concept",
@@ -73,6 +148,26 @@
         "AI-THAT-WORKS"
       ],
       "path": "content/06-AI-Engineering/Software Factory.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-AI-STATE-001",
+      "title": "Structured Agent State",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "agents",
+        "state",
+        "resumability"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS",
+        "DOMAIN-DRIVERS-DD-AI"
+      ],
+      "path": "content/06-AI-Engineering/Structured Agent State.md",
       "wikilinks": []
     },
     {
