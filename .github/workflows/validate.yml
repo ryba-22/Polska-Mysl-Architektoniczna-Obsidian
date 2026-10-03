@@ -1,0 +1,19 @@
+name: validate-pma
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build PEOS registry
+        run: python3 scripts/build_peos_registry.py
+      - name: Publication gate
+        run: python3 scripts/validate_publication.py
+      - name: Wikilink gate
+        run: python3 scripts/validate_links.py
+      - name: Generated registry must be committed
+        run: git diff --exit-code -- dist/peos

@@ -1,0 +1,192 @@
+{
+  "version": "1.0.0",
+  "policy": "Raw third-party source material is local/private by default. Public PMA stores original synthesis, provenance and links.",
+  "sources": [
+    {
+      "id": "DOMAIN-DRIVERS-COURSE",
+      "name": "Domain Drivers — szkolenie DDD / mapa / napisy / slajdy",
+      "url": "https://domaindrivers.pl/",
+      "license_status": "not-cleared-for-republication",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Przesłane materiały kursowe pozostają lokalne."
+    },
+    {
+      "id": "DOMAIN-DRIVERS-ORG",
+      "name": "DomainDrivers GitHub organization",
+      "url": "https://github.com/DomainDrivers",
+      "license_status": "mixed-by-repository",
+      "raw_publication": "review-per-repository",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "DOMAIN-DRIVERS-DD-JAVA",
+      "name": "DomainDrivers/dd-java",
+      "url": "https://github.com/DomainDrivers/dd-java",
+      "license_status": "GPL-3.0",
+      "raw_publication": "do-not-vendor-into-pma",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "DOMAIN-DRIVERS-DD-AI",
+      "name": "DomainDrivers/dd-ai",
+      "url": "https://github.com/DomainDrivers/dd-ai",
+      "license_status": "no-root-license-observed-2026-10-03",
+      "raw_publication": "private-only-unless-cleared",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "DDD-BY-EXAMPLES-LIBRARY",
+      "name": "ddd-by-examples/library",
+      "url": "https://github.com/ddd-by-examples/library",
+      "license_status": "MIT",
+      "raw_publication": "license-allows-use-with-notice",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "small-code-excerpts-with-attribution"
+      ]
+    },
+    {
+      "id": "DDD-BY-EXAMPLES-CQRS",
+      "name": "ddd-by-examples/all-things-cqrs",
+      "url": "https://github.com/ddd-by-examples/all-things-cqrs",
+      "license_status": "not-checked",
+      "raw_publication": "review",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "DEVMOUNTJOB",
+      "name": "stolarczykt/DevMountJob",
+      "url": "https://github.com/stolarczykt/DevMountJob",
+      "license_status": "no-root-license-observed-2026-10-03",
+      "raw_publication": "private-only-unless-cleared",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "SOFTWARE-ARCHETYPES",
+      "name": "Software-Archetypes/archetypes",
+      "url": "https://github.com/Software-Archetypes/archetypes",
+      "license_status": "CC-BY-NC-SA-4.0",
+      "raw_publication": "restricted",
+      "allowed_public_use": [
+        "original-synthesis",
+        "attribution",
+        "bibliography",
+        "links"
+      ],
+      "notes": "NonCommercial + ShareAlike apply to adapted/copied material."
+    },
+    {
+      "id": "ARCHETYPY-OPROGRAMOWANIA",
+      "name": "Archetypy-Oprogramowania/archetypes",
+      "url": "https://github.com/Archetypy-Oprogramowania/archetypes",
+      "license_status": "CC-BY-NC-SA-4.0",
+      "raw_publication": "restricted",
+      "allowed_public_use": [
+        "original-synthesis",
+        "attribution",
+        "bibliography",
+        "links"
+      ],
+      "notes": "NonCommercial + ShareAlike apply to adapted/copied material."
+    },
+    {
+      "id": "PILLOPL",
+      "name": "pilloPl public repositories",
+      "url": "https://github.com/pilloPl",
+      "license_status": "mixed-not-checked-per-repository",
+      "raw_publication": "review",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "BSLOTA",
+      "name": "bslota public repositories",
+      "url": "https://github.com/bslota",
+      "license_status": "mixed-not-checked-per-repository",
+      "raw_publication": "review",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "EMMETT",
+      "name": "event-driven-io/emmett",
+      "url": "https://github.com/event-driven-io/emmett",
+      "license_status": "no-root-license-observed; README describes license direction as not final",
+      "raw_publication": "private-only-unless-cleared",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "AI-THAT-WORKS",
+      "name": "ai-that-works/ai-that-works",
+      "url": "https://github.com/ai-that-works/ai-that-works",
+      "license_status": "no-root-license-observed-2026-10-03",
+      "raw_publication": "private-only-unless-cleared",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "DDD-CREW",
+      "name": "DDD Crew public modelling resources",
+      "url": "https://github.com/ddd-crew",
+      "license_status": "not-checked-in-this-run",
+      "raw_publication": "review",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links"
+      ]
+    },
+    {
+      "id": "EVANS-DDD",
+      "name": "Eric Evans — Domain-Driven Design / deep model concepts",
+      "url": "https://www.domainlanguage.com/ddd/",
+      "license_status": "copyrighted-book/material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "short-attributed-quotation-when-needed"
+      ]
+    }
+  ]
+}

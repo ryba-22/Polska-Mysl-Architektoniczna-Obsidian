@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "id": "PMA-CASE-LIBRARY-001",
+      "title": "DDD by Examples — Library",
+      "type": "case-study",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "event-storming",
+        "library",
+        "case-study"
+      ],
+      "source_ids": [
+        "DDD-BY-EXAMPLES-LIBRARY"
+      ],
+      "path": "content/05-Case-Studies/DDD by Examples Library.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-CASE-DEVMOUNT-001",
+      "title": "DevMountJob",
+      "type": "case-study",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "event-storming",
+        "ddd",
+        "cqrs",
+        "event-sourcing"
+      ],
+      "source_ids": [
+        "DEVMOUNTJOB"
+      ],
+      "path": "content/05-Case-Studies/DevMountJob.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-CASE-SMARTSCHEDULE-001",
+      "title": "Domain Drivers — SmartSchedule",
+      "type": "case-study",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "domain-drivers",
+        "ddd",
+        "smartschedule",
+        "case-study"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-ORG",
+        "DOMAIN-DRIVERS-DD-JAVA",
+        "DOMAIN-DRIVERS-DD-AI"
+      ],
+      "path": "content/05-Case-Studies/Domain Drivers SmartSchedule.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-CASE-TESTABLE-ARCH-001",
+      "title": "Testable Architecture and Legacy Migration",
+      "type": "case-study",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "legacy",
+        "migration",
+        "architecture-tests",
+        "acl"
+      ],
+      "source_ids": [
+        "PILLOPL"
+      ],
+      "path": "content/05-Case-Studies/Testable Architecture and Legacy Migration.md",
+      "wikilinks": []
+    }
+  ]
+}

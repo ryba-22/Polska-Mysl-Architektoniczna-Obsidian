@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "id": "PMA-H-ARCH-DRIVERS-001",
+      "title": "Architecture Drivers",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "architecture",
+        "decision",
+        "drivers"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Architecture Drivers.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-DDD-INFO-001",
+      "title": "Information Gathering",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "discovery",
+        "event-storming"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DEVMOUNTJOB"
+      ],
+      "path": "content/02-Heuristics/Information Gathering.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-DDD-LANGUAGE-001",
+      "title": "Linguistic Boundary",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "ubiquitous-language",
+        "bounded-context"
+      ],
+      "source_ids": [
+        "DDD-BY-EXAMPLES-LIBRARY",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/Linguistic Boundary.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-H-PROBLEM-CLASS-001",
+      "title": "Problem Classification",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "problem-classification",
+        "ddd",
+        "architecture"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI",
+        "DOMAIN-DRIVERS-COURSE",
+        "DDD-BY-EXAMPLES-LIBRARY"
+      ],
+      "path": "content/02-Heuristics/Problem Classification.md",
+      "wikilinks": [
+        "Pattern vs Archetype vs Algorithm"
+      ]
+    },
+    {
+      "id": "PMA-H-CONSISTENCY-001",
+      "title": "Unit of Change",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "consistency",
+        "concurrency",
+        "aggregate",
+        "ddd"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-COURSE",
+        "DOMAIN-DRIVERS-DD-JAVA",
+        "BSLOTA"
+      ],
+      "path": "content/02-Heuristics/Unit of Change.md",
+      "wikilinks": [
+        "Consistency Boundary"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "id": "PMA-FAIL-CONCURRENCY-001",
+      "title": "Concurrency and Stale State",
+      "type": "failure-pattern",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "concurrency",
+        "optimistic-locking",
+        "stale-state",
+        "api"
+      ],
+      "source_ids": [
+        "BSLOTA",
+        "DOMAIN-DRIVERS-DD-JAVA",
+        "SOFTWARE-ARCHETYPES"
+      ],
+      "path": "content/04-Failure-Patterns/Concurrency and Stale State.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-FAIL-EDA-001",
+      "title": "Event Driven Failure Patterns",
+      "type": "failure-pattern",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "event-driven",
+        "integration",
+        "failure-modes"
+      ],
+      "source_ids": [
+        "PILLOPL",
+        "DOMAIN-DRIVERS-DD-AI",
+        "EMMETT",
+        "DDD-BY-EXAMPLES-CQRS"
+      ],
+      "path": "content/04-Failure-Patterns/Event Driven Failure Patterns.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-FAIL-OUTBOX-001",
+      "title": "Transactional Outbox Atomicity",
+      "type": "failure-pattern",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "outbox",
+        "atomicity",
+        "integration"
+      ],
+      "source_ids": [
+        "DOMAIN-DRIVERS-DD-AI"
+      ],
+      "path": "content/04-Failure-Patterns/Transactional Outbox Atomicity.md",
+      "wikilinks": []
+    }
+  ]
+}

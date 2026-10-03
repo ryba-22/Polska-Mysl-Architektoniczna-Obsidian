@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "id": "PMA-ARCHETYPE-ACCOUNTING-001",
+      "title": "Accounting",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "accounting",
+        "transactions",
+        "ledger"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES",
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Accounting.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-ARCHETYPE-AVAILABILITY-001",
+      "title": "Availability",
+      "type": "software-archetype",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "availability",
+        "reservation",
+        "resource-contention"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES",
+        "ARCHETYPY-OPROGRAMOWANIA",
+        "DOMAIN-DRIVERS-DD-JAVA"
+      ],
+      "path": "content/03-Software-Archetypes/Availability.md",
+      "wikilinks": [
+        "Concurrency and Stale State",
+        "Unit of Change",
+        "Waitlist"
+      ]
+    },
+    {
+      "id": "PMA-ARCHETYPE-CONFIGURATOR-001",
+      "title": "Configurator",
+      "type": "software-archetype",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "configuration",
+        "constraints",
+        "sat",
+        "algorithm"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES"
+      ],
+      "path": "content/03-Software-Archetypes/Configurator.md",
+      "wikilinks": [
+        "Pattern vs Archetype vs Algorithm"
+      ]
+    },
+    {
+      "id": "PMA-ARCHETYPE-PLANEXEC-001",
+      "title": "Plan vs Execution",
+      "type": "software-archetype",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "plan",
+        "execution",
+        "delta",
+        "simulation",
+        "tolerance"
+      ],
+      "source_ids": [
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Plan vs Execution.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-ARCHETYPE-PRICING-001",
+      "title": "Pricing",
+      "type": "software-archetype",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "pricing",
+        "calculation",
+        "rules"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES",
+        "ARCHETYPY-OPROGRAMOWANIA",
+        "BSLOTA"
+      ],
+      "path": "content/03-Software-Archetypes/Pricing.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-ARCHETYPE-WAITLIST-001",
+      "title": "Waitlist",
+      "type": "software-archetype",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "waitlist",
+        "queue",
+        "selection-policy"
+      ],
+      "source_ids": [
+        "SOFTWARE-ARCHETYPES",
+        "ARCHETYPY-OPROGRAMOWANIA"
+      ],
+      "path": "content/03-Software-Archetypes/Waitlist.md",
+      "wikilinks": [
+        "Availability"
+      ]
+    }
+  ]
+}

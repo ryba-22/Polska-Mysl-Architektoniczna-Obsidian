@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "entries": [
+    {
+      "id": "PMA-AI-OBS-001",
+      "title": "Agent Observability",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "observability",
+        "tracing"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Agent Observability.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-AI-CONTEXT-001",
+      "title": "Context Engineering",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "context-engineering",
+        "memory"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Context Engineering.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-AI-EVAL-001",
+      "title": "Evolutionary Eval",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "evals",
+        "evolution",
+        "regression"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Evolutionary Eval.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-AI-FACTORY-001",
+      "title": "Software Factory",
+      "type": "concept",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "software-factory",
+        "agents",
+        "feedback-loop"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Software Factory.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-EVAL-STRICT-001",
+      "title": "Evolutionary Strict Pass Rate",
+      "type": "eval",
+      "lifecycle": "active",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "evals",
+        "strict-pass",
+        "agents",
+        "maintainability"
+      ],
+      "source_ids": [
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/09-Evals/Evolutionary Strict Pass Rate.md",
+      "wikilinks": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# PMA publication boundary
+/private/
+/assets-private/
+
+# Explicit private/raw source conventions
+**/sources-private/
+**/raw-sources/
+**/transcripts-private/
+**/subtitles-private/
+**/course-materials-private/
+**/repository-snapshots-private/
+
+# Obsidian runtime state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.trash/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# Build/runtime
+__pycache__/
+*.pyc
+node_modules/
