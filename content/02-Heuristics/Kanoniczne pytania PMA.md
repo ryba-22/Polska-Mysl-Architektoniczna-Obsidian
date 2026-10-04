@@ -48,6 +48,15 @@ Pełny zestaw pytań jest zsynchronizowany z [[PMA Mental Loop]].
 18. Co ten model świadomie pomija?
 19. Jaki drugi model również pasuje do evidence?
 
+## 4a. Mapowania i ukryte przejścia
+
+19a. Jeżeli zachowanie potrzebuje dwóch modeli, czy składamy tylko odczyt, czy podejmujemy nową decyzję?
+19b. Kto jest właścicielem reguły mapującej pomiędzy tymi modelami?
+19c. Czy mapowanie ma własne wyjątki, temporalność, provenance albo wersję?
+19d. Co musiało stać się prawdą, zanim obiekt stał się kwalifikowalny do następnej operacji?
+19e. Czy pomiędzy dwoma krokami brakuje pivotal event?
+19f. Czy nowy model poprawiłby ownership i locality of change, czy tylko nazwałby mapper?
+
 ## 5. Ownership i zależności
 
 20. Kto jest właścicielem decyzji?
@@ -109,7 +118,7 @@ Pełny zestaw pytań jest zsynchronizowany z [[PMA Mental Loop]].
 
 Preferuj sekwencję:
 
-**intencja → pytanie → evidence → problem → klasa → behavior → modele → drivery → stress test → konsekwencje → decyzja → metryka → feedback**
+**intencja → pytanie → evidence → problem → klasa → behavior → modele → mapowania → drivery → stress test → konsekwencje → decyzja → metryka → feedback**
 
 Unikaj:
 
@@ -117,12 +126,14 @@ Unikaj:
 
 ## Kontrprzykłady i granice stosowalności
 
-Nie każde zadanie wymaga 55 pytań. Prosty CRUD, lokalna transformacja lub mała poprawka mogą zakończyć pętlę bardzo wcześnie. Celem jest zmniejszenie kosztu błędnej decyzji, nie maksymalizacja ceremonii.
+Nie każde zadanie wymaga przejścia przez cały zestaw pytań. Prosty CRUD, lokalna transformacja lub mała poprawka mogą zakończyć pętlę bardzo wcześnie. Celem jest zmniejszenie kosztu błędnej decyzji, nie maksymalizacja ceremonii.
 
 ## Powiązania
 
 - [[PMA Mental Loop]]
 - [[Język polskiej myśli architektonicznej]]
 - [[Problem Classification]]
+- [[Mapping Model Discovery]]
+- [[Backward Narration]]
 - [[Architecture Drivers]]
 - [[Feedback and Metrics Loop]]
