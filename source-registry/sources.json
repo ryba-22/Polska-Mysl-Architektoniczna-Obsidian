@@ -387,6 +387,20 @@
         "short-attributed-quotation-when-needed"
       ],
       "notes": "Public conference and Bottega-linked recordings. Captions are archived privately when publicly retrievable."
+    },
+    {
+      "id": "SKILLPANEL-MAISTER",
+      "name": "SkillPanel/Maister — structured standards-aware agentic SDLC runtime",
+      "url": "https://github.com/SkillPanel/maister",
+      "license_status": "MIT",
+      "raw_publication": "link-reference-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "small-code-excerpts-with-attribution"
+      ],
+      "notes": "Practitioner reference for task-local orchestration, standards discovery, verification fan-out, resumable state and operator UX. Patterns are adapted under PMA evidence/governance constraints; Maister workflow shape is not treated as universal authority."
     }
   ]
 }

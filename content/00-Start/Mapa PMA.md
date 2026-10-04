@@ -65,6 +65,10 @@ Rozpoznanie struktury problemu ma trzy równoległe ścieżki:
 
 Model pozostaje hipotezą. [[Modeling Whirlpool]] przypomina, że modelowanie jest iteracyjną pętlą uczenia, a nie liniowym hand-offem. [[Model Breaking Change]] uruchamia ponowne przejście przez scenariusze, pytanie główne i alternatywy zamiast bezwarunkowego rozszerzania istniejącej struktury.
 
+## Operator runtime
+
+[[Agentic SDLC Operator Runtime]] oddziela reasoning/governance od ergonomii wykonywania: konstytucja projektu, task-local dossier, verification fan-out, dashboard-projection, single front door i risk-derived fast path.
+
 ## Powiązanie z PEOS
 
 [[PMA-PEOS Bridge]] zamienia wybrane publiczne notatki na maszynowy registry dla AI Brain.

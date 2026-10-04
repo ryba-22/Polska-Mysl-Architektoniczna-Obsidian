@@ -24,6 +24,7 @@
       ],
       "path": "content/00-Start/Mapa PMA.md",
       "wikilinks": [
+        "Agentic SDLC Operator Runtime",
         "Algorithm Recognition",
         "Archetype Discovery Funnel",
         "Architecture Abstraction Ladder",
@@ -2092,6 +2093,28 @@
         "AI-THAT-WORKS"
       ],
       "path": "content/06-AI-Engineering/Agentic Backpressure.md",
+      "wikilinks": []
+    },
+    {
+      "id": "PMA-AI-OPERATOR-RUNTIME-001",
+      "title": "Agentic SDLC Operator Runtime",
+      "type": "synthesis",
+      "lifecycle": "active",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ai",
+        "agentic-sdlc",
+        "operator-runtime",
+        "standards",
+        "verification",
+        "orchestration"
+      ],
+      "source_ids": [
+        "SKILLPANEL-MAISTER",
+        "AI-THAT-WORKS"
+      ],
+      "path": "content/06-AI-Engineering/Agentic SDLC Operator Runtime.md",
       "wikilinks": []
     },
     {
