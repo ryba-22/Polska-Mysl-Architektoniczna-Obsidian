@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["availability","reservation","resource-contention"]
-source_ids: ["SOFTWARE-ARCHETYPES","ARCHETYPY-OPROGRAMOWANIA","DOMAIN-DRIVERS-DD-JAVA"]
+source_ids: ["SOFTWARE-ARCHETYPES","ARCHETYPY-OPROGRAMOWANIA","DOMAIN-DRIVERS-DD-JAVA","BOTTEGA-DDD-CATALOG"]
 ---
 
 # Availability

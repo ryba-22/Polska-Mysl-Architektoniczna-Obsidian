@@ -38,7 +38,8 @@
         "PILLOPL",
         "DOMAIN-DRIVERS-DD-AI",
         "EMMETT",
-        "DDD-BY-EXAMPLES-CQRS"
+        "DDD-BY-EXAMPLES-CQRS",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/04-Failure-Patterns/Event Driven Failure Patterns.md",
       "wikilinks": []

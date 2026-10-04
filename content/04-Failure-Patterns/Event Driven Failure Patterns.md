@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["event-driven","integration","failure-modes"]
-source_ids: ["PILLOPL","DOMAIN-DRIVERS-DD-AI","EMMETT","DDD-BY-EXAMPLES-CQRS"]
+source_ids: ["PILLOPL","DOMAIN-DRIVERS-DD-AI","EMMETT","DDD-BY-EXAMPLES-CQRS","BOTTEGA-DDD-CATALOG"]
 ---
 
 # Event Driven Failure Patterns

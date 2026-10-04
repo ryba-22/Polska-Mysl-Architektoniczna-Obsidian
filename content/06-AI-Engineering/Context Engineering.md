@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["ai","context-engineering","memory"]
-source_ids: ["AI-THAT-WORKS"]
+source_ids: ["AI-THAT-WORKS","BOTTEGA-DDD-CATALOG"]
 ---
 
 # Context Engineering

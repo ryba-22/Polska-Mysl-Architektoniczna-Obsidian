@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["ddd","integration","event","command","query"]
-source_ids: ["DOMAIN-DRIVERS-COURSE","DOMAIN-DRIVERS-DD-AI"]
+source_ids: ["DOMAIN-DRIVERS-COURSE","DOMAIN-DRIVERS-DD-AI","BOTTEGA-DDD-CATALOG","BOTTEGA-DDD-ARTICLES"]
 ---
 
 # Event Command Query

@@ -2,6 +2,39 @@
   "schema_version": "1.0.0",
   "entries": [
     {
+      "id": "PMA-CASE-BOTTEGA-DDD-001",
+      "title": "Bottega DDD Knowledge Map",
+      "type": "case-study",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "bottega",
+        "ddd",
+        "event-storming",
+        "archetypes",
+        "source-map"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-MATERIALS",
+        "BOTTEGA-DDD-ARTICLES",
+        "BOTTEGA-DDD-PUBLIC-TALKS"
+      ],
+      "path": "content/05-Case-Studies/Bottega DDD Knowledge Map.md",
+      "wikilinks": [
+        "Aggregate Sizing",
+        "Archetype Discovery Funnel",
+        "Architecture Abstraction Ladder",
+        "Being Behaving Becoming",
+        "Clean Questions for Domain Discovery",
+        "Consistency Boundary",
+        "Modeling Whirlpool",
+        "SSOT and SPOF Boundary Heuristic",
+        "Unit of Change"
+      ]
+    },
+    {
       "id": "PMA-CASE-LIBRARY-001",
       "title": "DDD by Examples — Library",
       "type": "case-study",
@@ -105,7 +138,8 @@
         "acl"
       ],
       "source_ids": [
-        "PILLOPL"
+        "PILLOPL",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/05-Case-Studies/Testable Architecture and Legacy Migration.md",
       "wikilinks": []

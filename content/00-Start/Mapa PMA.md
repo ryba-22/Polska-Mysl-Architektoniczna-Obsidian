@@ -18,11 +18,15 @@ Purpose / outcome
 → strategic questions
 → domain discovery
 → [[Main Question|main questions]] / [[Pivotal Event|pivotal events]] / [[Distillation|distillation]]
+→ [[Clean Questions for Domain Discovery|clean questions]] / [[Being Behaving Becoming|being-behaving-becoming]]
 → [[Problem Classification|problem classification]]
 → [[Behavior Before Nouns|behavioral decomposition]]
-→ structural recognition
+→ structural recognition / [[Archetype Discovery Funnel|archetype discovery]]
 → [[Model Alternatives|alternative models]]
 → source-of-truth / ownership
+→ [[Four Model Levels|model levels]]
+→ [[SSOT and SPOF Boundary Heuristic|ownership and failure boundaries]]
+→ [[Architecture Abstraction Ladder|architecture abstraction]]
 → [[Architecture Drivers|architecture drivers]]
 → [[Temporal Scale and Volatility Lens|temporal / scale / volatility lens]]
 → [[Unit of Change|consistency and unit of change]]
@@ -59,7 +63,7 @@ Rozpoznanie struktury problemu ma trzy równoległe ścieżki:
 
 ## Model evolution
 
-Model pozostaje hipotezą. [[Model Breaking Change]] uruchamia ponowne przejście przez scenariusze, pytanie główne i alternatywy zamiast bezwarunkowego rozszerzania istniejącej struktury.
+Model pozostaje hipotezą. [[Modeling Whirlpool]] przypomina, że modelowanie jest iteracyjną pętlą uczenia, a nie liniowym hand-offem. [[Model Breaking Change]] uruchamia ponowne przejście przez scenariusze, pytanie główne i alternatywy zamiast bezwarunkowego rozszerzania istniejącej struktury.
 
 ## Powiązanie z PEOS
 

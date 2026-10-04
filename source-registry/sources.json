@@ -331,6 +331,62 @@
         "short-attributed-quotation-when-needed"
       ],
       "notes": "Used as a product-analysis source for purpose/cost/support framing and user-facing financial information patterns."
+    },
+    {
+      "id": "BOTTEGA-DDD-CATALOG",
+      "name": "Bottega IT Minds — Domain Driven Design i Event Storming training catalog",
+      "url": "https://bottega.com.pl/katalog-szkolen?cat=ddd",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Current practitioner curriculum; used as evidence of techniques, distinctions and modeling heuristics, not as universal authority."
+    },
+    {
+      "id": "BOTTEGA-DDD-MATERIALS",
+      "name": "Bottega IT Minds — public DDD materials index",
+      "url": "https://bottega.com.pl/materialy-ddd",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Index of public articles and talks. Local raw copies/captions remain private."
+    },
+    {
+      "id": "BOTTEGA-DDD-ARTICLES",
+      "name": "Bottega / Sławomir Sobótka — DDD krok po kroku and Analysis Patterns articles",
+      "url": "https://bottega.com.pl/materialy-ddd",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Includes DDD krok po kroku I–VI, introductory DDD article and Party/Accountability analysis-pattern article."
+    },
+    {
+      "id": "BOTTEGA-DDD-PUBLIC-TALKS",
+      "name": "Bottega-linked public DDD / Event Storming talks",
+      "url": "https://bottega.com.pl/materialy-ddd",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Public conference and Bottega-linked recordings. Captions are archived privately when publicly retrievable."
     }
   ]
 }

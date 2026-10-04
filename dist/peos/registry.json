@@ -25,8 +25,12 @@
       "path": "content/00-Start/Mapa PMA.md",
       "wikilinks": [
         "Algorithm Recognition",
+        "Archetype Discovery Funnel",
+        "Architecture Abstraction Ladder",
         "Architecture Drivers",
         "Behavior Before Nouns",
+        "Being Behaving Becoming",
+        "Clean Questions for Domain Discovery",
         "Decision Gate",
         "Deep Model Quality",
         "Distillation",
@@ -34,17 +38,20 @@
         "Evidence Contract",
         "Evolutionary Strict Pass Rate",
         "Feedback and Metrics Loop",
+        "Four Model Levels",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
         "Main Question",
         "Model Alternatives",
         "Model Breaking Change",
+        "Modeling Whirlpool",
         "PMA Language Contract",
         "PMA Mental Loop",
         "PMA-PEOS Bridge",
         "Pivotal Event",
         "Problem Classification",
         "Recovery and Human Escalation",
+        "SSOT and SPOF Boundary Heuristic",
         "Socio-Technical Boundary",
         "Software Archetypes",
         "Temporal Scale and Volatility Lens",
@@ -225,7 +232,9 @@
         "DEVMOUNTJOB",
         "DDD-BY-EXAMPLES-LIBRARY",
         "DEVSTYLE-DDD-EMAIL-CORPUS",
-        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-ARTICLES"
       ],
       "path": "content/01-Concepts/DDD jako proces decyzyjny.md",
       "wikilinks": [
@@ -408,7 +417,9 @@
       "source_ids": [
         "DOMAIN-DRIVERS-COURSE",
         "DDD-CREW",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-ARTICLES"
       ],
       "path": "content/02-Heuristics/Aggregate Sizing.md",
       "wikilinks": [
@@ -460,6 +471,59 @@
       ]
     },
     {
+      "id": "PMA-H-ARCHETYPE-FUNNEL-001",
+      "title": "Archetype Discovery Funnel",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "archetypes",
+        "ddd",
+        "problem-classification",
+        "modeling",
+        "falsification"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-MATERIALS",
+        "SOFTWARE-ARCHETYPES"
+      ],
+      "path": "content/02-Heuristics/Archetype Discovery Funnel.md",
+      "wikilinks": [
+        "Deep Model Quality",
+        "Distillation",
+        "Model Alternatives",
+        "Problem Classification"
+      ]
+    },
+    {
+      "id": "PMA-H-ARCH-ABSTRACTION-LADDER-001",
+      "title": "Architecture Abstraction Ladder",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "architecture",
+        "ddd",
+        "bounded-context",
+        "module",
+        "abstraction",
+        "decision"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG"
+      ],
+      "path": "content/02-Heuristics/Architecture Abstraction Ladder.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Capability vs Product",
+        "DDD jako proces decyzyjny",
+        "Linguistic Boundary"
+      ]
+    },
+    {
       "id": "PMA-H-ARCH-CODE-GAP-001",
       "title": "Architecture Code Gap",
       "type": "heuristic",
@@ -493,7 +557,8 @@
         "drivers"
       ],
       "source_ids": [
-        "DOMAIN-DRIVERS-COURSE"
+        "DOMAIN-DRIVERS-COURSE",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/02-Heuristics/Architecture Drivers.md",
       "wikilinks": []
@@ -572,6 +637,32 @@
       ]
     },
     {
+      "id": "PMA-H-BEING-BEHAVING-BECOMING-001",
+      "title": "Being, Behaving, Becoming",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "modeling",
+        "boundary",
+        "archetypes",
+        "lifecycle"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-MATERIALS"
+      ],
+      "path": "content/02-Heuristics/Being Behaving Becoming.md",
+      "wikilinks": [
+        "Deep Model Quality",
+        "Linguistic Boundary",
+        "Model Alternatives",
+        "Pivotal Event"
+      ]
+    },
+    {
       "id": "PMA-H-CAPABILITY-CARD-001",
       "title": "Capability Card",
       "type": "heuristic",
@@ -615,6 +706,32 @@
       ],
       "path": "content/02-Heuristics/Capability vs Product.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-H-CLEAN-QUESTIONS-001",
+      "title": "Clean Questions for Domain Discovery",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "event-storming",
+        "facilitation",
+        "discovery",
+        "questions",
+        "language"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-MATERIALS"
+      ],
+      "path": "content/02-Heuristics/Clean Questions for Domain Discovery.md",
+      "wikilinks": [
+        "Evidence Contract",
+        "Information Gathering",
+        "Kanoniczne pytania PMA",
+        "Linguistic Boundary"
+      ]
     },
     {
       "id": "PMA-H-CORRECTIONS-001",
@@ -696,7 +813,9 @@
       ],
       "source_ids": [
         "DOMAIN-DRIVERS-COURSE",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-MATERIALS"
       ],
       "path": "content/02-Heuristics/Distillation.md",
       "wikilinks": [
@@ -742,7 +861,9 @@
       ],
       "source_ids": [
         "DOMAIN-DRIVERS-COURSE",
-        "DOMAIN-DRIVERS-DD-AI"
+        "DOMAIN-DRIVERS-DD-AI",
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-ARTICLES"
       ],
       "path": "content/02-Heuristics/Event Command Query.md",
       "wikilinks": [
@@ -838,6 +959,31 @@
         "Evolutionary Eval",
         "PMA Mental Loop",
         "Socio-Technical Boundary"
+      ]
+    },
+    {
+      "id": "PMA-H-FOUR-MODEL-LEVELS-001",
+      "title": "Four Model Levels",
+      "type": "heuristic",
+      "lifecycle": "candidate",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "modeling",
+        "capability",
+        "operations",
+        "policy",
+        "decision-support"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG"
+      ],
+      "path": "content/02-Heuristics/Four Model Levels.md",
+      "wikilinks": [
+        "Architecture Abstraction Ladder",
+        "Architecture Drivers",
+        "Capability vs Product"
       ]
     },
     {
@@ -1000,6 +1146,32 @@
       ]
     },
     {
+      "id": "PMA-H-MODELING-WHIRLPOOL-001",
+      "title": "Modeling Whirlpool",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "source-derived",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "modeling",
+        "knowledge-crunching",
+        "feedback",
+        "executable-specification"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-ARTICLES",
+        "BOTTEGA-DDD-MATERIALS"
+      ],
+      "path": "content/02-Heuristics/Modeling Whirlpool.md",
+      "wikilinks": [
+        "Behavior Preservation Contract",
+        "DDD jako proces decyzyjny",
+        "Dynamic Validation",
+        "Scenario Before Aggregate"
+      ]
+    },
+    {
       "id": "PMA-H-PIVOTAL-EVENT-001",
       "title": "Pivotal Event",
       "type": "heuristic",
@@ -1014,7 +1186,9 @@
       ],
       "source_ids": [
         "DOMAIN-DRIVERS-COURSE",
-        "DEVSTYLE-DDD-EMAIL-CORPUS"
+        "DEVSTYLE-DDD-EMAIL-CORPUS",
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-PUBLIC-TALKS"
       ],
       "path": "content/02-Heuristics/Pivotal Event.md",
       "wikilinks": [
@@ -1122,6 +1296,34 @@
         "Consistency Boundary",
         "Problem Classification",
         "Recovery and Human Escalation"
+      ]
+    },
+    {
+      "id": "PMA-H-SSOT-SPOF-001",
+      "title": "SSOT and SPOF Boundary Heuristic",
+      "type": "heuristic",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "ddd",
+        "boundary",
+        "ownership",
+        "ssot",
+        "spof",
+        "autonomy"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-MATERIALS",
+        "DOMAIN-DRIVERS-COURSE"
+      ],
+      "path": "content/02-Heuristics/SSOT and SPOF Boundary Heuristic.md",
+      "wikilinks": [
+        "Architecture Drivers",
+        "Consistency Boundary",
+        "Event Command Query",
+        "Unit of Change"
       ]
     },
     {
@@ -1324,7 +1526,8 @@
       "source_ids": [
         "SOFTWARE-ARCHETYPES",
         "ARCHETYPY-OPROGRAMOWANIA",
-        "DOMAIN-DRIVERS-DD-JAVA"
+        "DOMAIN-DRIVERS-DD-JAVA",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/03-Software-Archetypes/Availability.md",
       "wikilinks": [
@@ -1541,7 +1744,8 @@
         "decision"
       ],
       "source_ids": [
-        "ARCHETYPY-OPROGRAMOWANIA"
+        "ARCHETYPY-OPROGRAMOWANIA",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/03-Software-Archetypes/Rules and Scoring.md",
       "wikilinks": []
@@ -1638,7 +1842,8 @@
         "PILLOPL",
         "DOMAIN-DRIVERS-DD-AI",
         "EMMETT",
-        "DDD-BY-EXAMPLES-CQRS"
+        "DDD-BY-EXAMPLES-CQRS",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/04-Failure-Patterns/Event Driven Failure Patterns.md",
       "wikilinks": []
@@ -1708,6 +1913,39 @@
       ],
       "path": "content/04-Failure-Patterns/Transactional Outbox Atomicity.md",
       "wikilinks": []
+    },
+    {
+      "id": "PMA-CASE-BOTTEGA-DDD-001",
+      "title": "Bottega DDD Knowledge Map",
+      "type": "case-study",
+      "lifecycle": "verified",
+      "knowledge_status": "synthesis",
+      "peos_usable": true,
+      "tags": [
+        "bottega",
+        "ddd",
+        "event-storming",
+        "archetypes",
+        "source-map"
+      ],
+      "source_ids": [
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-MATERIALS",
+        "BOTTEGA-DDD-ARTICLES",
+        "BOTTEGA-DDD-PUBLIC-TALKS"
+      ],
+      "path": "content/05-Case-Studies/Bottega DDD Knowledge Map.md",
+      "wikilinks": [
+        "Aggregate Sizing",
+        "Archetype Discovery Funnel",
+        "Architecture Abstraction Ladder",
+        "Being Behaving Becoming",
+        "Clean Questions for Domain Discovery",
+        "Consistency Boundary",
+        "Modeling Whirlpool",
+        "SSOT and SPOF Boundary Heuristic",
+        "Unit of Change"
+      ]
     },
     {
       "id": "PMA-CASE-LIBRARY-001",
@@ -1813,7 +2051,8 @@
         "acl"
       ],
       "source_ids": [
-        "PILLOPL"
+        "PILLOPL",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/05-Case-Studies/Testable Architecture and Legacy Migration.md",
       "wikilinks": []
@@ -1868,7 +2107,8 @@
         "memory"
       ],
       "source_ids": [
-        "AI-THAT-WORKS"
+        "AI-THAT-WORKS",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/06-AI-Engineering/Context Engineering.md",
       "wikilinks": []

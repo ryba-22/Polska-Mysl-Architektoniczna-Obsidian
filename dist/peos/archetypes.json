@@ -35,7 +35,8 @@
       "source_ids": [
         "SOFTWARE-ARCHETYPES",
         "ARCHETYPY-OPROGRAMOWANIA",
-        "DOMAIN-DRIVERS-DD-JAVA"
+        "DOMAIN-DRIVERS-DD-JAVA",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/03-Software-Archetypes/Availability.md",
       "wikilinks": [
@@ -252,7 +253,8 @@
         "decision"
       ],
       "source_ids": [
-        "ARCHETYPY-OPROGRAMOWANIA"
+        "ARCHETYPY-OPROGRAMOWANIA",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/03-Software-Archetypes/Rules and Scoring.md",
       "wikilinks": []

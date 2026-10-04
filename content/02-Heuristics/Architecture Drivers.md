@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["architecture","decision","drivers"]
-source_ids: ["DOMAIN-DRIVERS-COURSE"]
+source_ids: ["DOMAIN-DRIVERS-COURSE","BOTTEGA-DDD-CATALOG"]
 ---
 
 # Architecture Drivers

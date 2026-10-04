@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: candidate
 peos_usable: true
 tags: ["ddd","aggregate","consistency","concurrency"]
-source_ids: ["DOMAIN-DRIVERS-COURSE","DDD-CREW","DEVSTYLE-DDD-EMAIL-CORPUS"]
+source_ids: ["DOMAIN-DRIVERS-COURSE","DDD-CREW","DEVSTYLE-DDD-EMAIL-CORPUS","BOTTEGA-DDD-CATALOG","BOTTEGA-DDD-ARTICLES"]
 ---
 
 # Aggregate Sizing

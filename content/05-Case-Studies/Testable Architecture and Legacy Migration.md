@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: candidate
 peos_usable: true
 tags: ["legacy","migration","architecture-tests","acl"]
-source_ids: ["PILLOPL"]
+source_ids: ["PILLOPL","BOTTEGA-DDD-CATALOG"]
 ---
 
 # Testable Architecture and Legacy Migration

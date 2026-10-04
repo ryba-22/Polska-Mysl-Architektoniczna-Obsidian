@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: verified
 peos_usable: true
 tags: ["ddd","event-storming","boundary","lifecycle"]
-source_ids: ["DOMAIN-DRIVERS-COURSE","DEVSTYLE-DDD-EMAIL-CORPUS"]
+source_ids: ["DOMAIN-DRIVERS-COURSE","DEVSTYLE-DDD-EMAIL-CORPUS","BOTTEGA-DDD-CATALOG","BOTTEGA-DDD-PUBLIC-TALKS"]
 ---
 
 # Pivotal Event

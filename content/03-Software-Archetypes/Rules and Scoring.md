@@ -6,7 +6,7 @@ knowledge_status: synthesis
 lifecycle: candidate
 peos_usable: true
 tags: ["software-archetypes","rules","scoring","decision"]
-source_ids: ["ARCHETYPY-OPROGRAMOWANIA"]
+source_ids: ["ARCHETYPY-OPROGRAMOWANIA","BOTTEGA-DDD-CATALOG"]
 ---
 
 # Rules and Scoring

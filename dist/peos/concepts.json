@@ -23,8 +23,12 @@
       "path": "content/00-Start/Mapa PMA.md",
       "wikilinks": [
         "Algorithm Recognition",
+        "Archetype Discovery Funnel",
+        "Architecture Abstraction Ladder",
         "Architecture Drivers",
         "Behavior Before Nouns",
+        "Being Behaving Becoming",
+        "Clean Questions for Domain Discovery",
         "Decision Gate",
         "Deep Model Quality",
         "Distillation",
@@ -32,17 +36,20 @@
         "Evidence Contract",
         "Evolutionary Strict Pass Rate",
         "Feedback and Metrics Loop",
+        "Four Model Levels",
         "Język polskiej myśli architektonicznej",
         "Kanoniczne pytania PMA",
         "Main Question",
         "Model Alternatives",
         "Model Breaking Change",
+        "Modeling Whirlpool",
         "PMA Language Contract",
         "PMA Mental Loop",
         "PMA-PEOS Bridge",
         "Pivotal Event",
         "Problem Classification",
         "Recovery and Human Escalation",
+        "SSOT and SPOF Boundary Heuristic",
         "Socio-Technical Boundary",
         "Software Archetypes",
         "Temporal Scale and Volatility Lens",
@@ -223,7 +230,9 @@
         "DEVMOUNTJOB",
         "DDD-BY-EXAMPLES-LIBRARY",
         "DEVSTYLE-DDD-EMAIL-CORPUS",
-        "DEVSTYLE-FULL-CORPUS-2026-10-03"
+        "DEVSTYLE-FULL-CORPUS-2026-10-03",
+        "BOTTEGA-DDD-CATALOG",
+        "BOTTEGA-DDD-ARTICLES"
       ],
       "path": "content/01-Concepts/DDD jako proces decyzyjny.md",
       "wikilinks": [
@@ -450,7 +459,8 @@
         "memory"
       ],
       "source_ids": [
-        "AI-THAT-WORKS"
+        "AI-THAT-WORKS",
+        "BOTTEGA-DDD-CATALOG"
       ],
       "path": "content/06-AI-Engineering/Context Engineering.md",
       "wikilinks": []
