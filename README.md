@@ -2,6 +2,8 @@
 
 PMA jest wersjonowanym grafem wiedzy o projektowaniu oprogramowania, DDD, modelowaniu domenowym, archetypach oprogramowania i AI-assisted product engineering.
 
+Operacyjne wejście do repo: [RUNBOOK.md](RUNBOOK.md).
+
 ## Publiczna wersja
 
 Repozytorium: https://github.com/ryba-22/Polska-Mysl-Architektoniczna-Obsidian
