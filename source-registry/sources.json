@@ -387,6 +387,20 @@
         "short-attributed-quotation-when-needed"
       ],
       "notes": "Public conference and Bottega-linked recordings. Captions are archived privately when publicly retrievable."
+    },
+    {
+      "id": "DEVSTYLE-DOMAIN-DRIVERS-CONNASCENCE-DEMO-2026-10-05",
+      "name": "DevStyle / Domain Drivers — Czy MÓJ MODEL jest lepszy niż Twój? AI jako arbiter jakości",
+      "url": "https://youtu.be/Bbk-M96Rghc",
+      "license_status": "copyrighted-public-material",
+      "raw_publication": "private-only",
+      "allowed_public_use": [
+        "original-synthesis",
+        "bibliography",
+        "links",
+        "short-attributed-quotation-when-needed"
+      ],
+      "notes": "Public demo published 2026-10-05. Used for original synthesis of boundary-coupling evidence, Connascence-assisted classification, human semantic gate and comparative model evaluation. Raw captions/video are not published."
     }
   ]
 }
